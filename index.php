@@ -1,8 +1,6 @@
 <?php
 if (session_status() == PHP_SESSION_NONE) {
   session_start();
-  // header("Location: /learn");
-  // die();
 }
 ?>
 <!doctype html>
@@ -17,7 +15,7 @@ if (session_status() == PHP_SESSION_NONE) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="img/favicon.svg" type="image/x-icon">
 
-  <title>SGreliefteachers | Home</title>
+  <title>SGrelief | Home</title>
 
   <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -136,41 +134,10 @@ if (session_status() == PHP_SESSION_NONE) {
 
     <div class="hero" style=" color:whitesmoke; height: 1700px;">
 
-      <div>
-        <!--	images in home page-->
-        <div class="floating-area">
-          <img class="floating" src="img/homepage SVG.svg" width="42%" style="padding-top:90px; padding-left: 50px; padding-bottom:100px; float: left;" />
-        </div>
-
-
-
-        <!-- Texts in home page with heading and sub texts-->
-        <div class="animated slideInRight">
-          <h1 style="padding-top:250px; padding-right:290px; font-size: 30px; float: right;">
-            <strong style="font-family: 'Schoolbell', cursive; font-family: 'Vollkorn', serif;">Having touble finding jobs as a relief teacher?</strong>
-          </h1>
-
-          <h3 style="padding-top:10px; padding-right:475px; font-size: 20px; color:white; float: right;">
-            No problem! We got you covered! <br>Here at SGrelief, we provide services <br>for relief teachers who cannot find a job <br>or has difficulty finding one.
-            <br> Find a job today! <b style="color: #e9c46a">#sgrelief</b>
-
-          </h3>
-
-          <div class="butn" style="padding-top:15px; padding-right:750px;float:right;">
-            <button type="button" class="btn" style="width:120px; height:40px;  background-color:#e9c46a; border-radius: 0 !important;">
-              <a href="./#" style="color:black;">Find a job!</a>
-            </button>
-            <br>
-            <p>Scroll down for jobs</p>
-          </div>
-
-        </div>
-      </div>
-
-      <div style="width: 100%" class="row">
+      <div style="width: 100%; padding-top: 3%;" class="row">
         <div class="col-md-9">
           <div style=" margin-top: 30px; padding-left: 50px;">
-            <h1 id="jbs">Find jobs</h1>
+            <h1 id="jbs">Jobs</h1>
             <form class="example" action="index.php">
               <input style="color:#000; height:45px; width:800px; border-radius:30px 0px 0px 30px;" type="text" placeholder="     Search For Jobs.." name="q">
               <button type="submit" style="height:45px; width:160px; border-radius:0px 30px 30px 0px; background-color: #257059; "><i class="fa fa-search bb"></i></button>
@@ -281,9 +248,6 @@ if (session_status() == PHP_SESSION_NONE) {
         <div style=" height: 100vh; " class="col-md-3">
 
           <br><br>
-          <div class="animated slideInRight dm">
-            <img class="floating" src="img/rytsrc.svg" style="width:300px; height: 300px;" />
-          </div>
 
           <br><br>
           <div style="padding-top:10px; padding-right:30px;">

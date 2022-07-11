@@ -17,9 +17,9 @@ if (session_status() == PHP_SESSION_NONE) {
 
   <title>SGrelief | Home</title>
 
-  <link href="../css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-  <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="../css/Animate.css" rel="stylesheet" type="text/css">
+  <link href="https://sgrelief.cloudservetechcentral.com/css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+  <link href="https://sgrelief.cloudservetechcentral.com/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="https://sgrelief.cloudservetechcentral.com/css/Animate.css" rel="stylesheet" type="text/css">
   <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -28,8 +28,8 @@ if (session_status() == PHP_SESSION_NONE) {
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <link href="../css/Animate.css" rel="stylesheet" type="text/css">
-  <link href="../css/animate.min.css" rel="stylesheet" type="text/css">
+  <link href="https://sgrelief.cloudservetechcentral.com/css/Animate.css" rel="stylesheet" type="text/css">
+  <link href="https://sgrelief.cloudservetechcentral.com/css/animate.min.css" rel="stylesheet" type="text/css">
 
 
   <!--FONTS-->
@@ -125,8 +125,8 @@ if (session_status() == PHP_SESSION_NONE) {
 <body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
 
   <?php
-  include '../navBar.php';
-  include '../signinEmployerModals.php';
+  include 'https://sgrelief.cloudservetechcentral.com/navBar.php';
+  include 'https://sgrelief.cloudservetechcentral.com/signinEmployerModals.php';
   ?>
 
   <!-- Main Container -->
@@ -151,7 +151,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
             <!-- sum of posts -->
             <?php
-            include '../connect.php';
+            include 'https://sgrelief.cloudservetechcentral.com/connect.php';
             $sql = "select * from `totalposts`";
             $totalresult = $conn->query($sql);
             if ($totalresult->num_rows > 0) {
@@ -165,7 +165,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
             <!-- active users -->
             <?php
-            include '../connect.php';
+            include 'https://sgrelief.cloudservetechcentral.com/connect.php';
             $sql = "select * from `totalactiveusers`";
             $userresult = $conn->query($sql);
             if ($userresult->num_rows > 0) {
@@ -183,7 +183,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <div class="row">
               <?php $name = $category = $minexp = $salary = $industry = $desc = $role = $eType = $status = "";
 
-              include '../connect.php';
+              include 'https://sgrelief.cloudservetechcentral.com/connect.php';
               $sql = "select *,(select name from employer where id=post.eid)as ename from post  order by date";
               if (isset($_GET['q'])) {
                 $sql = "select *,(select name from employer where id=post.eid)as ename from post where name LIKE '%" . $_GET['q'] . "%' order by date";
@@ -226,7 +226,7 @@ if (session_status() == PHP_SESSION_NONE) {
                     <h5><b style="color:#F8D4A7">Salary:</b>
                       <?php echo $salary; ?> </h5> <br>
                     <!-- ------------------------------------------------------------------ -->
-                    <a href="../applyJob.php?id=<?php echo $pid; ?>" class="pull-right" style="font-family: 'Sora', sans-serif; color:#e9c46a;">
+                    <a href="https://sgrelief.cloudservetechcentral.com/applyJob.php?id=<?php echo $pid; ?>" class="pull-right" style="font-family: 'Sora', sans-serif; color:#e9c46a;">
                       <h3><strong>Apply</strong></h3>
                     </a>
                   </div>
@@ -256,7 +256,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
               <div>
                 <select class="form-control" name='category' style="border-radius:0px;">
-                  <?php include "../categoryOptions.php"; ?>
+                  <?php include "https://sgrelief.cloudservetechcentral.com/categoryOptions.php"; ?>
                 </select><br>
                 <input class=" btn-success pull-right mbbtn" type="submit" value="Search" style="border-radius:0px;" />
               </div>
@@ -270,7 +270,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
             <form>
               <select class="form-control" name='industry' style="border-radius:0px;">
-                <?php include "../industryOptions.php"; ?>
+                <?php include "https://sgrelief.cloudservetechcentral.com/industryOptions.php"; ?>
               </select><br>
               <input class=" btn-success pull-right mbbtn" type="submit" value="Search" style="border-radius:0px;" />
             </form>
@@ -284,10 +284,10 @@ if (session_status() == PHP_SESSION_NONE) {
 
 
   <!--first row -->
-  <script src="../js/tilt.jquery.min.js"></script>
-  <script src="../js/signinModal.js"></script>
+  <script src="https://sgrelief.cloudservetechcentral.com/js/tilt.jquery.min.js"></script>
+  <script src="https://sgrelief.cloudservetechcentral.com/js/signinModal.js"></script>
 
-  <?php include '../footer.php'; ?>
+  <?php include 'https://sgrelief.cloudservetechcentral.com/footer.php'; ?>
 
   <button style="display:none;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#msgModal" id="msgModalBtn">Open Modal</button>
 
