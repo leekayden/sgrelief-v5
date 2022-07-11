@@ -1,6 +1,8 @@
 <?php
 if (session_status() == PHP_SESSION_NONE) {
-  session_start();
+  // session_start();
+  header("Location: /login.php");
+  die();
 }
 ?>
 <!doctype html>
@@ -15,7 +17,7 @@ if (session_status() == PHP_SESSION_NONE) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="img/favicon.svg" type="image/x-icon">
 
-  <title>SGrelief | Home</title>
+  <title>SGreliefteachers | Jobs</title>
 
   <link href="../css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
   <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
