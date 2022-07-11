@@ -292,16 +292,16 @@ if (session_status() == PHP_SESSION_NONE) {
                     <div class="right-contact">
                         <form action="https://forms.cloudservetechcentral.com/process.php" method="post" class="contact-form" id="contactform">
                             <input type="hidden" name="form_tools_initialize_form" value="1" />
-                            <input type="hidden" name="form_tools_form_id" value="8" />
+                            <input type="hidden" name="form_tools_form_id" value="9" />
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="Name">
-                                <input type="email" required placeholder="Email">
+                                <input type="text" required placeholder="Name" name="name" id="name">
+                                <input type="email" required placeholder="Email" name="email" id="email">
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="Subject">
+                                <input type="text" required placeholder="Subject" name="subject" id="subject">
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message"></textarea>
+                                <textarea name="message" id="message" cols="15" rows="8" placeholder="Message"></textarea>
                             </div>
                             <div class="submit-btn">
                                 <a href="#" class="main-btn" onclick="submitForm()">
