@@ -302,11 +302,16 @@ if (session_status() == PHP_SESSION_NONE) {
                                 <textarea name="" id="" cols="15" rows="8" placeholder="Message"></textarea>
                             </div>
                             <div class="submit-btn">
-                                <a href="#" class="main-btn">
+                                <a href="#" class="main-btn" onclick="submitForm()">
                                     <span class="btn-text">Submit</span>
                                     <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
                                 </a>
                             </div>
+                            <script>
+                                function submitForm() {
+                                    document.getElementById("contactform").submit();
+                                }
+                            </script>
                         </form>
                     </div>
                 </div>
