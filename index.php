@@ -9,7 +9,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SGreliefteachers | Learn</title>
+    <title>SGreliefteachers</title>
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,6 +34,10 @@ if (session_status() == PHP_SESSION_NONE) {
                         <span class="btn-text">Start now!</span>
                         <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
                     </a>
+                    <a href="/jobs/" class="main-btn">
+                        <span class="btn-text">Find jobs</span>
+                        <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -52,6 +56,10 @@ if (session_status() == PHP_SESSION_NONE) {
                     <div class="btn-con">
                         <a href="/login.php?msg=login" class="main-btn">
                             <span class="btn-text">Start now!</span>
+                            <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
+                        </a>
+                        <a href="/jobs/" class="main-btn">
+                            <span class="btn-text">Find jobs</span>
                             <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
                         </a>
                     </div>

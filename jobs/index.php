@@ -237,7 +237,7 @@ if (session_status() == PHP_SESSION_NONE) {
               <?php }
               } else {
                 echo '<div class="" style="justify-content:center;">';
-                echo ' <img src="img/err.svg" width=600px /> ';
+                echo ' <img src="../img/err.svg" width=600px /> ';
                 echo '</div>';
               } ?>
 
