@@ -17,7 +17,7 @@ if (session_status() == PHP_SESSION_NONE) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="img/favicon.svg" type="image/x-icon">
 
-  <title>SGreliefteachers | Jobs</title>
+  <title>SGreliefteaching | Jobs</title>
 
   <link href="../css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
   <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">

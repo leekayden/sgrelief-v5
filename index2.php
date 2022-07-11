@@ -17,7 +17,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/style.css">
 
-    <title>SGreliefteachers Home</title>
+    <title>SGreliefteaching Home</title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <div class="containerAside-header">
                 <div class="asideHeader-userInformations">
                     <img src="" alt="" class="asideHeader-imgUserImage">
-                    <h3 class="asideHeader-lblUserName">SGreliefteachers</h3>
+                    <h3 class="asideHeader-lblUserName">SGreliefteaching</h3>
                     <div class="asideHeader-socialsBox">
                         <a href="#" class="asideHeader-btnSocial"><i class="bi-twitter"></i></a>
                         <a href="#" class="asideHeader-btnSocial"><i class="bi-facebook"></i></a>
@@ -70,11 +70,11 @@ if (session_status() == PHP_SESSION_NONE) {
         </aside>
         <main class="container-main">
             <div class="containerMain-backgroundFilter"></div>
-            <h1 class="containerMain-lblName">SGreliefteachers</h1>
+            <h1 class="containerMain-lblName">SGreliefteaching</h1>
             <p class="containerMain-lblAbility">We are matchmakers for <span>teachers</span></p>
             <button onclick="ShowMenu()" class="containerMain-ShowMenu"><i class="bi-list"></i></button>
             <br/>
-            <p class="containerMain-lblAbility" style="max-width: 500px;">At SGreliefteachers, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!</p>
+            <p class="containerMain-lblAbility" style="max-width: 500px;">At SGreliefteaching, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!</p>
         </main>
     </div>
 </body>

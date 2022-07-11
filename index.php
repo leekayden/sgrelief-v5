@@ -9,7 +9,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SGreliefteachers</title>
+    <title>SGreliefteaching</title>
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@ if (session_status() == PHP_SESSION_NONE) {
                     Hello! Welcome to SG<span>relief</span>teachers!
                 </h1>
                 <p>
-                At SGreliefteachers, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!
+                At SGreliefteaching, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!
                 </p>
                 <div class="btn-con">
                     <a href="/login.php?msg=login" class="main-btn">
@@ -54,7 +54,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 <div class="left-about">
                     <h4>About us</h4>
                     <p>
-                        At SGreliefteachers, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!
+                        At SGreliefteaching, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!
                     </p>
                     <div class="btn-con">
                         <a href="/login.php?msg=login" class="main-btn">

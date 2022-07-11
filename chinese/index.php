@@ -17,7 +17,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/style.css">
 
-    <title>SGreliefteachers - 华文</title>
+    <title>SGreliefteaching - 华文</title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <div class="containerAside-header">
                 <div class="asideHeader-userInformations">
                     <img src="" alt="" class="asideHeader-imgUserImage">
-                    <h3 class="asideHeader-lblUserName">SGreliefteachers</h3>
+                    <h3 class="asideHeader-lblUserName">SGreliefteaching</h3>
                     <div class="asideHeader-socialsBox">
                         <a href="#" class="asideHeader-btnSocial"><i class="bi-twitter"></i></a>
                         <a href="#" class="asideHeader-btnSocial"><i class="bi-facebook"></i></a>
@@ -70,8 +70,8 @@ if (session_status() == PHP_SESSION_NONE) {
         </aside>
         <main class="container-main">
             <div class="containerMain-backgroundFilter"></div>
-            <h1 class="containerMain-lblName">SGreliefteachers</h1>
-            <p class="containerMain-lblAbility" style="max-width: 500px;">我们是 <span>老师</span> 的媒人在 SGreliefteachers, 我们帮助需要可以为他们上课的救济教师。 我们还帮助救济教师从需要他们的教师那里找到工作呢！</p>
+            <h1 class="containerMain-lblName">SGreliefteaching</h1>
+            <p class="containerMain-lblAbility" style="max-width: 500px;">我们是 <span>老师</span> 的媒人在 SGreliefteaching, 我们帮助需要可以为他们上课的救济教师。 我们还帮助救济教师从需要他们的教师那里找到工作呢！</p>
             <button onclick="ShowMenu()" class="containerMain-ShowMenu"><i class="bi-list"></i></button>
             <br/>
         </main>

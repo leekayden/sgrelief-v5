@@ -17,7 +17,7 @@
           <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="index.php" style="padding-left: 50px; font-size:25px; color:white; font-family: 'Congenial SemiBold', sans-serif">
-          SGreliefteachers
+          SGreliefteaching
       </a> 
     </div>
       
