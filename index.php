@@ -34,7 +34,8 @@ if (session_status() == PHP_SESSION_NONE) {
                         <span class="btn-text">Start now!</span>
                         <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
                     </a>
-                    <br>
+                </div>
+                <div class="btn-con">
                     <a href="/jobs/" class="main-btn">
                         <span class="btn-text">Find jobs</span>
                         <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
@@ -59,7 +60,8 @@ if (session_status() == PHP_SESSION_NONE) {
                             <span class="btn-text">Start now!</span>
                             <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
                         </a>
-                        <br>
+                    </div>
+                    <div class="btn-con">
                         <a href="/jobs/" class="main-btn">
                             <span class="btn-text">Find jobs</span>
                             <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
