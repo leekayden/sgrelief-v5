@@ -290,7 +290,9 @@ if (session_status() == PHP_SESSION_NONE) {
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="" class="contact-form">
+                        <form action="https://forms.cloudservetechcentral.com/process.php" method="post" class="contact-form" id="contactform">
+                            <input type="hidden" name="form_tools_initialize_form" value="1" />
+                            <input type="hidden" name="form_tools_form_id" value="8" />
                             <div class="input-control i-c-2">
                                 <input type="text" required placeholder="Name">
                                 <input type="email" required placeholder="Email">
