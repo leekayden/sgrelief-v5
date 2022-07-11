@@ -1,12 +1,9 @@
 <?php
 if (session_status() == PHP_SESSION_NONE) {
   session_start();
-  // header("Location: /learn");
-  // die();
 }
 ?>
 <!doctype html>
-
 
 <html>
 
@@ -17,22 +14,23 @@ if (session_status() == PHP_SESSION_NONE) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="img/favicon.svg" type="image/x-icon">
 
-  <title>SGreliefteachers | Home</title>
+  <title>SGrelief | Jobs</title>
 
-  <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/Animate.css" rel="stylesheet" type="text/css">
+  <link href="../css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+  <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="../css/Animate.css" rel="stylesheet" type="text/css">
   <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <link href="css/Animate.css" rel="stylesheet" type="text/css">
-  <link href="css/animate.min.css" rel="stylesheet" type="text/css">
-
+  <!-- <link href="css/Animate.css" rel="stylesheet" type="text/css"> -->
+  <!-- <link href="css/animate.min.css" rel="stylesheet" type="text/css"> -->
 
   <!--FONTS-->
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
@@ -124,45 +122,24 @@ if (session_status() == PHP_SESSION_NONE) {
   </style>
 
 
-<body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
+<body onload="logoBeat()" style="font-family: 'Arial', sans-serif;">
 
   <?php
-  include 'navBar.php';
-  include 'signinEmployerModals.php';
+  include '../navBar.php';
+  include '../signinEmployerModals.php';
   ?>
 
   <!-- Main Container -->
   <div class="container-fluid" style=" background-color: #18303B; background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
 
-    <div class="hero" style=" color:whitesmoke; height: 1700px;">
+    <div class="hero" style=" color:white; height: 1700px;">
 
       <div>
-        <!--	images in home page-->
         <div class="floating-area">
-          <img class="floating" src="img/homepage SVG.svg" width="42%" style="padding-top:90px; padding-left: 50px; padding-bottom:100px; float: left;" />
+          <h3 class="floating" style="padding-top:120px; padding-left: 50px; padding-bottom:100px; float: left;">
+            Trouble finding jobs as a relief teacher? <br>No problem! We got you covered! <br>Here at SGrelief, we provide services <br>for relief teachers who cannot find a job <br>or has difficulty finding one.
+            <br><br> Find a job today! <b style="color: #e9c46a">#sgrelief</b></h3>
         </div>
-
-
-
-        <!-- Texts in home page with heading and sub texts-->
-        <div class="animated slideInRight">
-          <h1 style="padding-top:250px; padding-right:290px; font-size: 30px; float: right;">
-            <strong style="font-family: 'Schoolbell', cursive; font-family: 'Vollkorn', serif;">Having touble finding jobs as a relief teacher?</strong>
-          </h1>
-
-          <h3 style="padding-top:10px; padding-right:475px; font-size: 20px; color:white; float: right;">
-            No problem! We got you covered! <br>Here at SGrelief, we provide services <br>for relief teachers who cannot find a job <br>or has difficulty finding one.
-            <br> Find a job today! <b style="color: #e9c46a">#sgrelief</b>
-
-          </h3>
-
-          <div class="butn" style="padding-top:15px; padding-right:750px;float:right;">
-            <button type="button" class="btn" style="width:120px; height:40px;  background-color:#e9c46a; border-radius: 0 !important;">
-              <a href="./#" style="color:black;">Find a job!</a>
-            </button>
-            <br>
-            <p>Scroll down for jobs</p>
-          </div>
 
         </div>
       </div>
@@ -184,7 +161,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
             <!-- sum of posts -->
             <?php
-            include 'connect.php';
+            include '../connect.php';
             $sql = "select * from `totalposts`";
             $totalresult = $conn->query($sql);
             if ($totalresult->num_rows > 0) {
@@ -198,7 +175,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
             <!-- active users -->
             <?php
-            include 'connect.php';
+            include '../connect.php';
             $sql = "select * from `totalactiveusers`";
             $userresult = $conn->query($sql);
             if ($userresult->num_rows > 0) {
@@ -216,7 +193,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <div class="row">
               <?php $name = $category = $minexp = $salary = $industry = $desc = $role = $eType = $status = "";
 
-              include 'connect.php';
+              include '/connect.php';
               $sql = "select *,(select name from employer where id=post.eid)as ename from post  order by date";
               if (isset($_GET['q'])) {
                 $sql = "select *,(select name from employer where id=post.eid)as ename from post where name LIKE '%" . $_GET['q'] . "%' order by date";
@@ -287,12 +264,12 @@ if (session_status() == PHP_SESSION_NONE) {
 
           <br><br>
           <div style="padding-top:10px; padding-right:30px;">
-            <h3>Jobs By Category</h3>
+            <h3>Jobs By Cluster</h3>
             <form>
 
               <div>
                 <select class="form-control" name='category' style="border-radius:0px;">
-                  <?php include "categoryOptions.php"; ?>
+                  <?php include "../categoryOptions.php"; ?>
                 </select><br>
                 <input class=" btn-success pull-right mbbtn" type="submit" value="Search" style="border-radius:0px;" />
               </div>
@@ -302,11 +279,11 @@ if (session_status() == PHP_SESSION_NONE) {
 
           <br><br>
           <div style="padding-top:10px; padding-right:30px;">
-            <h3>Jobs By Industry</h3>
+            <h3>Jobs By School Type</h3>
 
             <form>
               <select class="form-control" name='industry' style="border-radius:0px;">
-                <?php include "industryOptions.php"; ?>
+                <?php include "../industryOptions.php"; ?>
               </select><br>
               <input class=" btn-success pull-right mbbtn" type="submit" value="Search" style="border-radius:0px;" />
             </form>

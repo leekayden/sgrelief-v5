@@ -372,7 +372,7 @@
                         <span class="footer-title">Services</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://cloudservetechcentral.com">PCPSForms</a>
+                        <a class="nav-link" href="https://forms.cloudservetechcentral.com" target="_blank">CloudserveForms</a>
                     </li>
                 </ul>
             </div>
@@ -385,7 +385,10 @@
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Jobs</a>
+                        <a class="nav-link" href="/jobs">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/learn">Learn more</a>
                     </li>
                 </ul>
             </div>
@@ -395,13 +398,13 @@
                         <span class="footer-title">Contact & Support</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://support.sgrelief.cloudservetechcentral.com/"><i class="fas fa-comments"></i>Support articles</a>
+                        <a class="nav-link" href="https://sgrelief.cloudservetechcentral.com/learn"><i class="fas fa-comments"></i>Support articles (Not available yet)</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-envelope"></i>Contact us (Not available yet)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/feedback"><i class="fas fa-star"></i>Give feedback</a>
+                        <a class="nav-link" href="/feedback"><i class="fas fa-star"></i>Give feedback (Not available yet)</a>
                     </li>
                 </ul>
             </div>
@@ -413,7 +416,7 @@
             <div class="col-md-4 box">
                 <span class="copyright quick-links">&copy;&nbsp;Copyright&nbsp;<script>
                         document.write(new Date().getFullYear())
-                    </script>&nbsp;<strong>Cloudserve Technologies</strong>
+                    </script>&nbsp;<strong>SGreliefteachers</strong>
                 </span>
             </div>
             <div class="col-md-4 box">

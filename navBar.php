@@ -1,3 +1,6 @@
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
 <!--FONTS-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +17,7 @@
           <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="index.php" style="padding-left: 50px; font-size:25px; color:white; font-family: 'Congenial SemiBold', sans-serif">
-          SGrelief
+          SGreliefteachers
       </a> 
     </div>
       
@@ -26,10 +29,11 @@
         <ul class="nav navbar-nav navbar-right ">
         <!-- <li><a href="index.php">Jobs</a></li> -->
         	<?php 
-                
-               if (session_status() == PHP_SESSION_NONE) {
-               session_start();
-}
+              // php error_reporting(0);
+
+              if (session_status() == PHP_SESSION_NONE) {
+                session_start();
+              }
                 if(isset($_SESSION['login_user']))   // Checking whether the session is already there or not if 
                               // true then header redirect it to the home page directly 
  {
@@ -65,7 +69,8 @@
 </a></li>';
      
  }  ?>
-       
+        <!-- <li><a href="#contactus">Employer Dashboard</a></li>
+        <li><a href="#contactus">Jobseeker Dashboard</a></li> -->
         <li><a href="#contactus">Contact Us</a></li>
       </ul>
           

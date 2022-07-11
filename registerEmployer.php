@@ -25,7 +25,7 @@ if ($conn->query($sql) === TRUE) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="img/favicon.svg" type="image/x-icon">
 
-<title> Employer Registered</title>
+<title>Employer Registered</title>
 
         <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -52,7 +52,7 @@ if ($conn->query($sql) === TRUE) {
     <div class="modal-content">
       <div class="modal-header">
         
-      <h3 >Employer has been registered.. <br>Login to continue using our services</h3>
+      <h3>Thank you! Employer has been successfully registered. <br>Please login to continue using our services</h3>
      <br>
      <a href="index.php?msg=login">Login</a>
     </div>

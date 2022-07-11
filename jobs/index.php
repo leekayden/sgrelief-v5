@@ -1,8 +1,6 @@
 <?php
 if (session_status() == PHP_SESSION_NONE) {
   session_start();
-  // header("Location: /learn");
-  // die();
 }
 ?>
 <!doctype html>
@@ -17,11 +15,11 @@ if (session_status() == PHP_SESSION_NONE) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="img/favicon.svg" type="image/x-icon">
 
-  <title>SGreliefteachers | Home</title>
+  <title>SGrelief | Home</title>
 
-  <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/Animate.css" rel="stylesheet" type="text/css">
+  <link href="../css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+  <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="../css/Animate.css" rel="stylesheet" type="text/css">
   <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -30,8 +28,8 @@ if (session_status() == PHP_SESSION_NONE) {
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <link href="css/Animate.css" rel="stylesheet" type="text/css">
-  <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+  <link href="../css/Animate.css" rel="stylesheet" type="text/css">
+  <link href="../css/animate.min.css" rel="stylesheet" type="text/css">
 
 
   <!--FONTS-->
@@ -127,8 +125,8 @@ if (session_status() == PHP_SESSION_NONE) {
 <body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
 
   <?php
-  include 'navBar.php';
-  include 'signinEmployerModals.php';
+  include '../navBar.php';
+  include '../signinEmployerModals.php';
   ?>
 
   <!-- Main Container -->
@@ -136,41 +134,10 @@ if (session_status() == PHP_SESSION_NONE) {
 
     <div class="hero" style=" color:whitesmoke; height: 1700px;">
 
-      <div>
-        <!--	images in home page-->
-        <div class="floating-area">
-          <img class="floating" src="img/homepage SVG.svg" width="42%" style="padding-top:90px; padding-left: 50px; padding-bottom:100px; float: left;" />
-        </div>
-
-
-
-        <!-- Texts in home page with heading and sub texts-->
-        <div class="animated slideInRight">
-          <h1 style="padding-top:250px; padding-right:290px; font-size: 30px; float: right;">
-            <strong style="font-family: 'Schoolbell', cursive; font-family: 'Vollkorn', serif;">Having touble finding jobs as a relief teacher?</strong>
-          </h1>
-
-          <h3 style="padding-top:10px; padding-right:475px; font-size: 20px; color:white; float: right;">
-            No problem! We got you covered! <br>Here at SGrelief, we provide services <br>for relief teachers who cannot find a job <br>or has difficulty finding one.
-            <br> Find a job today! <b style="color: #e9c46a">#sgrelief</b>
-
-          </h3>
-
-          <div class="butn" style="padding-top:15px; padding-right:750px;float:right;">
-            <button type="button" class="btn" style="width:120px; height:40px;  background-color:#e9c46a; border-radius: 0 !important;">
-              <a href="./#" style="color:black;">Find a job!</a>
-            </button>
-            <br>
-            <p>Scroll down for jobs</p>
-          </div>
-
-        </div>
-      </div>
-
-      <div style="width: 100%" class="row">
+      <div style="width: 100%; padding-top: 3%;" class="row">
         <div class="col-md-9">
           <div style=" margin-top: 30px; padding-left: 50px;">
-            <h1 id="jbs">Find jobs</h1>
+            <h1 id="jbs">Jobs</h1>
             <form class="example" action="index.php">
               <input style="color:#000; height:45px; width:800px; border-radius:30px 0px 0px 30px;" type="text" placeholder="     Search For Jobs.." name="q">
               <button type="submit" style="height:45px; width:160px; border-radius:0px 30px 30px 0px; background-color: #257059; "><i class="fa fa-search bb"></i></button>
@@ -184,7 +151,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
             <!-- sum of posts -->
             <?php
-            include 'connect.php';
+            include '../connect.php';
             $sql = "select * from `totalposts`";
             $totalresult = $conn->query($sql);
             if ($totalresult->num_rows > 0) {
@@ -198,7 +165,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
             <!-- active users -->
             <?php
-            include 'connect.php';
+            include '../connect.php';
             $sql = "select * from `totalactiveusers`";
             $userresult = $conn->query($sql);
             if ($userresult->num_rows > 0) {
@@ -216,7 +183,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <div class="row">
               <?php $name = $category = $minexp = $salary = $industry = $desc = $role = $eType = $status = "";
 
-              include 'connect.php';
+              include '../connect.php';
               $sql = "select *,(select name from employer where id=post.eid)as ename from post  order by date";
               if (isset($_GET['q'])) {
                 $sql = "select *,(select name from employer where id=post.eid)as ename from post where name LIKE '%" . $_GET['q'] . "%' order by date";
@@ -259,7 +226,7 @@ if (session_status() == PHP_SESSION_NONE) {
                     <h5><b style="color:#F8D4A7">Salary:</b>
                       <?php echo $salary; ?> </h5> <br>
                     <!-- ------------------------------------------------------------------ -->
-                    <a href="applyJob.php?id=<?php echo $pid; ?>" class="pull-right" style="font-family: 'Sora', sans-serif; color:#e9c46a;">
+                    <a href="../applyJob.php?id=<?php echo $pid; ?>" class="pull-right" style="font-family: 'Sora', sans-serif; color:#e9c46a;">
                       <h3><strong>Apply</strong></h3>
                     </a>
                   </div>
@@ -281,9 +248,6 @@ if (session_status() == PHP_SESSION_NONE) {
         <div style=" height: 100vh; " class="col-md-3">
 
           <br><br>
-          <div class="animated slideInRight dm">
-            <img class="floating" src="img/rytsrc.svg" style="width:300px; height: 300px;" />
-          </div>
 
           <br><br>
           <div style="padding-top:10px; padding-right:30px;">
@@ -292,7 +256,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
               <div>
                 <select class="form-control" name='category' style="border-radius:0px;">
-                  <?php include "categoryOptions.php"; ?>
+                  <?php include "../categoryOptions.php"; ?>
                 </select><br>
                 <input class=" btn-success pull-right mbbtn" type="submit" value="Search" style="border-radius:0px;" />
               </div>
@@ -306,7 +270,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
             <form>
               <select class="form-control" name='industry' style="border-radius:0px;">
-                <?php include "industryOptions.php"; ?>
+                <?php include "../industryOptions.php"; ?>
               </select><br>
               <input class=" btn-success pull-right mbbtn" type="submit" value="Search" style="border-radius:0px;" />
             </form>
@@ -320,10 +284,10 @@ if (session_status() == PHP_SESSION_NONE) {
 
 
   <!--first row -->
-  <script src="js/tilt.jquery.min.js"></script>
-  <script src="js/signinModal.js"></script>
+  <script src="../js/tilt.jquery.min.js"></script>
+  <script src="../js/signinModal.js"></script>
 
-  <?php include 'footer.php'; ?>
+  <?php include '../footer.php'; ?>
 
   <button style="display:none;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#msgModal" id="msgModalBtn">Open Modal</button>
 
