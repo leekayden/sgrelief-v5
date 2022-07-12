@@ -69,9 +69,7 @@
 </a></li>';
      
  }  ?>
-        <!-- <li><a href="#contactus">Employer Dashboard</a></li>
-        <li><a href="#contactus">Jobseeker Dashboard</a></li> -->
-        <li><a href="#contactus">Contact Us</a></li>
+        <li><a href="/contact">Contact Us</a></li>
       </ul>
           
     </div>

@@ -401,7 +401,7 @@
                         <a class="nav-link" href="https://sgrelief.cloudservetechcentral.com/learn"><i class="fas fa-comments"></i>Support articles (Not available yet)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-envelope"></i>Contact us (Not available yet)</a>
+                        <a class="nav-link" href="/contact"><i class="fas fa-envelope"></i>Contact us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/feedback"><i class="fas fa-star"></i>Give feedback (Not available yet)</a>
