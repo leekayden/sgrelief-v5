@@ -31,6 +31,13 @@ if (session_status() == PHP_SESSION_NONE) {
                 </p>
                 <div class="btn-con">
                     <a href="/login.php?msg=login" class="main-btn">
+                        <span class="btn-text">Home page</span>
+                        <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
+                    </a>
+                </div>
+                <br>
+                <div class="btn-con">
+                    <a href="/login.php?msg=login" class="main-btn">
                         <span class="btn-text">Start now!</span>
                         <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
                     </a>
