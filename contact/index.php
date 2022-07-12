@@ -10,24 +10,26 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="center">
-<form action="">
+<form action="https://forms.cloudservetechcentral.com/process.php" method="post">
+  <input type="hidden" name="form_tools_initialize_form" value="1" />
+  <input type="hidden" name="form_tools_form_id" value="10" />
   <div class="container">
   
       <h1 class="title">Contact us</h1>
     
       <div class="form form__1">
         <label for="name" class="form__label">Full name</label>
-        <input type="text" class="form__input" placeholder="" id="name" name="name" required>
+        <input type="text" class="form__input" placeholder="" id="name" name="name">
       </div>
     
       <div class="form form__2">
         <label for="email" class="form__label">Email address</label>
-        <input type="email" class="form__input" placeholder="" id="email" name="email" required>
+        <input type="email" class="form__input" placeholder="" id="email" name="email">
       </div>
     
       <div class="form form__3">
         <label for="message" class="form__label">Your message</label>
-        <input type="text" class="form__input" placeholder="" id="message" name="message" required>
+        <input type="text" class="form__input" placeholder="" id="message" name="message">
       </div>
     
       <button class="form__btn" type="submit">
