@@ -26,7 +26,7 @@ if(isset($_GET['id'])){
                 header('location: index.php?msg=failed');
             }
     }else{
-        header('location:index.php?msg=login');
+        header('location:login.php?msg=login');
     }
 }
 
