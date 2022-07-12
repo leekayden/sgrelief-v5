@@ -28,9 +28,9 @@ if ($conn->query($sql) === TRUE) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="img/favicon.svg" type="image/x-icon">
 
-<title> Jobseeker Registered</title>
+<title>Relief teacher registered</title>
 
-        <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/Animate.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -54,9 +54,9 @@ if ($conn->query($sql) === TRUE) {
     <div class="modal-content">
       <div class="modal-header">
         
-      <h3 >Thanks for Registering with us.. <br>Login to continue using our services</h3>
+      <h3 >Thanks for registering an account with us! <br>Please login to continue using our services</h3>
      <br>
-     <a href="index.php?msg=login">Login</a>
+     <a href="login.php?msg=login">Login</a>
     </div>
     </div>
 </div>
@@ -67,6 +67,7 @@ if ($conn->query($sql) === TRUE) {
     </script>
     </body>
 </html>
+<?php include 'footer.php'; ?>
 
 <?php
 } else {
