@@ -30,7 +30,7 @@
         <input type="text" class="form__input" placeholder="" id="message" name="message" required>
       </div>
     
-      <button class="form__btn">
+      <button class="form__btn" type="submit">
         <span class="form__btn--visible"><p>Submit</p> 
           <i class="material-icons">arrow_forward</i>
         </span>
