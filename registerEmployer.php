@@ -7,9 +7,9 @@ $name =$email= $password="";
 if($_SERVER['REQUEST_METHOD']=='POST'){
     
     $name = $_POST["name"];
-     $email = $_POST["email"];
-     $password = $_POST["password"];
-     
+    $email = $_POST["email"];
+    $password = $_POST["password"];
+    
      
     
     $sql = "INSERT INTO employer (name,email,password) VALUES ('$name', '$email', '$password')";
