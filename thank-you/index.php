@@ -31,11 +31,8 @@
 		<p class="main-content__body" data-lead-id="main-content-body">Thanks a bunch for filling that out. It means a lot to us, just like you do! We really appreciate you giving us a moment of your time today. Thanks for your help.</p>
 	</div>
 
-	<!-- <footer class="site-footer" id="footer">
+	<footer class="site-footer" id="footer">
 		<p class="site-footer__fineprint" id="fineprint">Copyright &copy;2022 CloudserveTech | All Rights Reserved</p>
-	</footer> -->
-	<?php
-		include '../footer.php';
-	?>
+	</footer>
 </body>
 </html>
