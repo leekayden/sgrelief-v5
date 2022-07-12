@@ -11,7 +11,6 @@
 <!-- partial:index.partial.html -->
 <div class="center">
 <form action="https://forms.cloudservetechcentral.com/process.php" method="post">
-  <input type="hidden" name="form_tools_initialize_form" value="1" />
   <input type="hidden" name="form_tools_form_id" value="10" />
   <div class="container">
   
