@@ -54,7 +54,7 @@ if ($conn->query($sql) === TRUE) {
     <div class="modal-content">
       <div class="modal-header">
         
-      <h3 >Thanks for registering an account with us! <br>Please login to continue using our services</h3>
+      <h3>Thanks for registering an account with us! <br>Please login to continue using our services</h3>
      <br>
      <a href="login.php?msg=login">Login</a>
     </div>
