@@ -11,10 +11,7 @@
 		@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 	</style>
     <link rel="stylesheet" href="./style.css">
-	<!-- <link rel="stylesheet" href="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/default_thank_you.css"> -->
     <script src="./script.js"></script>
-	<!-- <script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/jquery-1.9.1.min.js"></script> -->
-	<!-- <script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/html5shiv.js"></script> -->
 </head>
 <body>
   <div class="pageLoad">
@@ -31,13 +28,14 @@
 
 	<div class="main-content">
 		<i class="fa fa-check main-content__checkmark" id="checkmark"></i>
-		<p class="main-content__body" data-lead-id="main-content-body">Thanks a bunch for filling that out. It means a lot to us, just like you do! We really appreciate you giving us a moment of your time today. Thanks for being you.</p>
+		<p class="main-content__body" data-lead-id="main-content-body">Thanks a bunch for filling that out. It means a lot to us, just like you do! We really appreciate you giving us a moment of your time today. Thanks for your help.</p>
 	</div>
 
-    
-
-	<footer class="site-footer" id="footer">
+	<!-- <footer class="site-footer" id="footer">
 		<p class="site-footer__fineprint" id="fineprint">Copyright &copy;2022 CloudserveTech | All Rights Reserved</p>
-	</footer>
+	</footer> -->
+	<?php
+		include '../footer.php';
+	?>
 </body>
 </html>
