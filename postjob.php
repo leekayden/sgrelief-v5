@@ -184,7 +184,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
                             </div>
 
                             <div class="form-group">
-                                <label for="minexp">Minimum Experience</label>
+                                <label for="minexp">School</label>
                                 <input type="text" name="minexp" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Enter Minimum Expireince" value="<?php echo $minexp; ?>" />
                             </div>
 
