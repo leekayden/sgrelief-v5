@@ -54,7 +54,7 @@ if ($conn->query($sql) === TRUE) {
         
       <h3>Thank you! Employer has been successfully registered. <br>Please login to continue using our services</h3>
      <br>
-     <a href="index.php?msg=login">Login</a>
+     <a href="login.php?msg=login">Login</a>
     </div>
     </div>
 </div>
