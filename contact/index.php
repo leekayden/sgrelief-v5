@@ -35,7 +35,7 @@
         <span class="form__btn--visible"><p>Submit</p> 
           <i class="material-icons">arrow_forward</i>
         </span>
-        <span class="form__btn--invisible">Message sent!</span>
+        <span class="form__btn--invisible">Message sent! Thanks!</span>
       </button>
   
     <div class="container-mail">
