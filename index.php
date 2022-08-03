@@ -30,7 +30,7 @@ if (session_status() == PHP_SESSION_NONE) {
                     Hello! Welcome to SG<span>relief</span>teaching!
                 </h1>
                 <p>
-                At SGreliefteaching, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!
+                At SG<span>relief</span>teaching, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!
                 </p>
                 <div class="btn-con">
                     <a href="/main.php?msg=login" class="main-btn">

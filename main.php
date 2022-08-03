@@ -251,7 +251,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
           <br><br>
           <div style="padding-top:10px; padding-right:30px;">
-            <h3>Jobs By Category</h3>
+            <h3>Jobs By Cluster</h3>
             <form>
 
               <div>
