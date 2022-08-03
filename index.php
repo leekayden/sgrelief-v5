@@ -64,7 +64,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 <div class="left-about">
                     <h4>About us</h4>
                     <p>
-                        At SGreliefteaching, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!
+                    At SGreliefteaching, we help schools/teachers to find Flexi-Adjunct/relief teachers. We also help Flexi-Adjunct/relief teachers to find teaching assignments.
                     </p>
                     <div class="btn-con">
                         <a href="/login.php?msg=login" class="main-btn">
