@@ -138,8 +138,8 @@ if (session_status() == PHP_SESSION_NONE) {
         <div class="col-md-9">
           <div style=" margin-top: 30px; padding-left: 50px;">
             <h1 id="jbs">Jobs</h1>
-            <form class="example" action="main.php">
-              <input style="color:#000; height:45px; width:800px; border-radius:30px 0px 0px 30px;" type="text" placeholder="     Search For Jobs.." name="q">
+            <form class="example" action="index.php">
+              <input style="color:#000; height:45px; width:800px; border-radius:30px 0px 0px 30px;" type="text" placeholder="Search For Jobs..." name="q">
               <button type="submit" style="height:45px; width:160px; border-radius:0px 30px 30px 0px; background-color: #257059; "><i class="fa fa-search bb"></i></button>
             </form>
           </div>
@@ -173,7 +173,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 $numberofusers = $row['TotalActiveUsers'];
             ?>
 
-                <h3 style="font-family: 'Schoolbell', cursive; font-family: 'Vollkorn', serif; color: #f2cc8f; padding-left:4px;"> Active Users: <?php echo $numberofusers; ?> </h3>
+                <h3 style="font-family: 'Schoolbell', cursive; font-family: 'Vollkorn', serif; color: #f2cc8f; padding-left:4px;">Active Users: <?php echo $numberofusers; ?> </h3>
             <?php }
             } ?>
             <!--------------------------------------------------------------------------------------------->
@@ -251,7 +251,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
           <br><br>
           <div style="padding-top:10px; padding-right:30px;">
-            <h3>Jobs By Cluster</h3>
+            <h3>Jobs By Category</h3>
             <form>
 
               <div>
