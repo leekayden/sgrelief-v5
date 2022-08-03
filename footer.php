@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="/styles/styles.css">
-
 <style>
     * {
         user-select: none;
