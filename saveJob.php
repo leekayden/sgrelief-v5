@@ -25,7 +25,7 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 }else{
-    header("location : index.php");
+    header("location : main.php");
 }
 
 
