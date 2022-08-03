@@ -1,7 +1,7 @@
 <?php
 if (session_status() == PHP_SESSION_NONE) {
   // session_start();
-  header("Location: /login.php?msg=login");
+  header("Location: /main.php?msg=login");
   die();
 }
 ?>

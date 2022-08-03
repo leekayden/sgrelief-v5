@@ -8,5 +8,5 @@ if(isset($_SESSION["sid"])){
     $sid=$_SESSION["sid"];
     
 }else{
-    header('Location:index.php');
+    header('Location:main.php');
 }

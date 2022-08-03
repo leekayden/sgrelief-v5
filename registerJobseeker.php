@@ -56,7 +56,7 @@ if ($conn->query($sql) === TRUE) {
         
       <h3>Thanks for registering an account with us! <br>Please login to continue using our services</h3>
      <br>
-     <a href="login.php?msg=login">Login</a>
+     <a href="main.php?msg=login">Login</a>
     </div>
     </div>
 </div>
@@ -76,7 +76,7 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 }else{
-      header("location : index.php");
+      header("location : main.php");
 }
 
 

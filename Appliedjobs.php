@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="img/favicon.svg" type="image/x-icon">
 
-<title> Jobs Applied | Job Seeker</title>
+<title> Jobs Applied | Relief Teacher</title>
 
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -110,7 +110,7 @@ if ($result->num_rows > 0) {
                             <th>Company Name</th>
                             <th>Job Title</th>
                             <th>Date Applied</th>
-                            <th>Min Experiance</th>
+                            <th>Minimum Experience</th>
                             <th>Salary</th>
                             <th>Job Description</th>
                             <th>Status</th>

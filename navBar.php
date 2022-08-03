@@ -17,7 +17,7 @@
           <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="index.php" style="padding-left: 50px; font-size:25px; color:white; font-family: 'Congenial SemiBold', sans-serif">
-          SGreliefteaching
+          SG<span style="color: #27AE60;">relief</span>teaching
       </a> 
     </div>
       
@@ -41,7 +41,7 @@
    echo ' <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">'.$myusername.'<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="seekerAccount.php">My Profile</a></li>
-             <li><a href="AppliedJobs.php">Jobs Applied</a></li>
+             <li><a href="Appliedjobs.php">Jobs Applied</a></li>
              <li><a href="logout.php">Logout</a></li>
        
           </ul>

@@ -12,7 +12,7 @@ if(isset($_GET['id'])){
         $result=$conn->query($sql);
         header('location: ViewApplicants.php');
 }else{     
-                header('location: index.php?msg=dup');
+                header('location: main.php?msg=dup');
 }
                 die();
             
