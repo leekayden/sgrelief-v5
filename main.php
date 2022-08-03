@@ -159,7 +159,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 $numberofposts = $row['AllPosts'];
             ?>
 
-                <h3 style="font-family: 'Schoolbell', cursive; font-family: 'Vollkorn', serif; color: #f2cc8f; padding-left:4px;"> Total Job Posts Available: <?php echo $numberofposts; ?> </h3>
+                <h3 style="font-family: 'Schoolbell', cursive; font-family: 'Vollkorn', serif; color: #f2cc8f; padding-left:4px;">Total Jobs Available: <?php echo $numberofposts; ?> </h3>
             <?php }
             } ?>
 

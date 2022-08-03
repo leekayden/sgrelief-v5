@@ -386,7 +386,7 @@
             <div class="col-md-4 box">
                 <span class="copyright quick-links">&copy;&nbsp;Copyright&nbsp;<script>
                         document.write(new Date().getFullYear())
-                    </script>&nbsp;<strong>SG<span>relief</span>teaching</strong>
+                    </script>&nbsp;<strong>SG<span style="color: green;">relief</span>teaching</strong>
                 </span>
             </div>
             <div class="col-md-4 box">
