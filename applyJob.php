@@ -11,7 +11,7 @@ if(isset($_GET['id'])){
         $result=$conn->query($sql);
         $count=$result->num_rows;
             if($count>0){
-                header('location: index.php?msg=dup');
+                header('location: main.php?msg=dup');
                 die();
             }
         
@@ -20,13 +20,13 @@ if(isset($_GET['id'])){
                 . "VALUES (NULL, CURRENT_DATE(), '$pid', '$sid', 'sent');";
         if ($conn->query($sql) === TRUE) {
        
-                header('location: index.php?msg=success');
+                header('location: main.php?msg=success');
                 
             }else{
-                header('location: index.php?msg=failed');
+                header('location: main.php?msg=failed');
             }
     }else{
-        header('location:login.php?msg=login');
+        header('location:main.php?msg=login');
     }
 }
 
