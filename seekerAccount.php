@@ -89,7 +89,7 @@ if ($resultE->num_rows > 0) {
                             <h2>Qualification</h2>
                             <h4><?php echo $qlf; ?></h4>
                             <br><br>
-                            <h2>Skills</h2>
+                            <h2>Contact</h2>
                             <h4><?php echo $skills; ?></h4>
                             <br><br>
                     </div>   

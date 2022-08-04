@@ -128,7 +128,7 @@
 
               </div>
               <div id="menu1" class="tab-pane fade" style="width: 50%;">
-                <h3 style="color: white; padding-left: 30px;">Register as a Relief Teacher</h3>
+                <h3 style="color: white; padding-left: 30px;">Register as Relief Teacher</h3>
                 <form class="cd-form" method="post" action="registerJobseeker.php" enctype="multipart/form-data">
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-username" for="empsignup-username">Name</label>
@@ -159,8 +159,8 @@
 
                   </p>
                   <p class="fieldset" style="padding-right: 30px;">
-                    <label class="image-replace cd-username" for="empsignup-username">skills</label>
-                    <input class="full-width has-padding has-border" id="skills" name="skills" type="text" placeholder="skills">
+                    <label class="image-replace cd-username" for="empsignup-username">Contact (Email/Phone)</label>
+                    <input class="full-width has-padding has-border" id="skills" name="skills" type="text" placeholder="Contact">
 
                   </p>
 
