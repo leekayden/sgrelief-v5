@@ -162,6 +162,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
 
             <div class="container contact-form" style=" background-color: #2a9d8f; width: 700px; height: 1100px; box-shadow: 0px 0px 25px #1e1e1e; 
                  align-items: center; justify-content: center; display: flex; padding: 0px; ">
+                 
+
+                <!--display message-->
+                <div style="font-family: Sora; font-size: 15px; color: #ffd6a5; padding-top: 15px;">
+                    <b><?php echo $msg; ?></b>
+                </div>
                 <form method="post">
 
                     <div class="row">
@@ -185,7 +191,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
 
                             <div class="form-group">
                                 <label for="minexp">School</label>
-                                <input type="text" name="minexp" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Enter Minimum Expireince" value="<?php echo $minexp; ?>" />
+                                <input type="text" name="minexp" class="form-control" style="border-radius:0px; height: 50px;" placeholder="School" value="<?php echo $minexp; ?>" />
                             </div>
 
                             <div class="form-group">
@@ -232,11 +238,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
 
                                 <button type="submit" name="submitPost" class="btn" style="background-color: #001219; color: #e9d8a6;
                             box-shadow: none; border-radius: 0px; height: 50px; width: 500px;"> <b>Post</b> </button>
-
-                                <!--display message-->
-                                <div style="font-family: Sora; font-size: 15px; color: #ffd6a5; padding-top: 15px;">
-                                    <b><?php echo $msg; ?></b>
-                                </div>
 
                             </div>
 
