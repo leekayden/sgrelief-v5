@@ -10,6 +10,9 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="center">
+<button class="form__btn" onclick="history.back()">
+  <i class="material-icons">home</i>&nbsp;&nbsp;Back&nbsp;&nbsp;
+</button>
 <form action="https://forms.cloudservetechcentral.com/process.php" method="post">
   <input type="hidden" name="form_tools_form_id" value="10" />
   <div class="container">
