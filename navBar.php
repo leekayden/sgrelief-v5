@@ -16,7 +16,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php" style="padding-left: 50px; font-size:25px; color:white; font-family: 'Congenial SemiBold', sans-serif">
+      <a class="navbar-brand" href="/" style="padding-left: 50px; font-size:25px; color:white; font-family: 'Congenial SemiBold', sans-serif">
           SG<span style="color: #27AE60;">relief</span>teaching
       </a> 
     </div>

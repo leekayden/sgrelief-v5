@@ -110,7 +110,7 @@ if ($result->num_rows > 0) {
                             <th>Applicant's Name</th>
                             <th>Date Applied</th>
                             <th>Job Title</th>
-                            <th>Applicant's Skills</th>
+                            <th>Applicant's Contact</th>
                             <th>Application Status</th>
                             <th>Accept</th>
                             <th>Reject</th>
