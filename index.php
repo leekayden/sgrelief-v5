@@ -27,7 +27,7 @@ if (session_status() == PHP_SESSION_NONE) {
             </div>
             <div class="right-header">
                 <h1 class="name">
-                    Hello! Welcome to SG<span>relief</span>teaching!
+                    Welcome to SG<span>relief</span>teaching!
                 </h1>
                 <p>
                 At SG<span>relief</span>teaching, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!
