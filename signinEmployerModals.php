@@ -101,14 +101,14 @@
                 <h3 style="color: white; padding-left: 30px;">Register as Employer</h3>
                 <form class="cd-form" method="post" action="registerEmployer.php" enctype="multipart/form-data">
                   <p class="fieldset" style="padding-right: 30px;">
-                    <label class="image-replace cd-username" for="empsignup-username">Username</label>
-                    <input class="full-width has-padding has-border" id="name" name="name" type="text" placeholder="Enter Username">
+                    <label class="image-replace cd-username" for="empsignup-username">Name</label>
+                    <input class="full-width has-padding has-border" id="name" name="name" type="text" placeholder="Name">
 
                   </p>
 
                   <p class="fieldset" style="padding-right: 30px;">
-                    <label class="image-replace cd-email" for="empsignup-email">E-mail</label>
-                    <input class="full-width has-padding has-border" id="email" name="email" type="email" placeholder="Enter E-mail">
+                    <label class="image-replace cd-email" for="empsignup-email">Email</label>
+                    <input class="full-width has-padding has-border" id="email" name="email" type="email" placeholder="Enter Email">
 
                   </p>
 
@@ -131,14 +131,14 @@
                 <h3 style="color: white; padding-left: 30px;">Register as Relief Teacher</h3>
                 <form class="cd-form" method="post" action="registerJobseeker.php" enctype="multipart/form-data">
                   <p class="fieldset" style="padding-right: 30px;">
-                    <label class="image-replace cd-username" for="empsignup-username">Username</label>
-                    <input class="full-width has-padding has-border" id="name" name="name" type="text" placeholder="Enter Username">
+                    <label class="image-replace cd-username" for="empsignup-username">Name</label>
+                    <input class="full-width has-padding has-border" id="name" name="name" type="text" placeholder="Name">
 
                   </p>
 
                   <p class="fieldset" style="padding-right: 30px;">
-                    <label class="image-replace cd-email" for="empsignup-email">E-mail</label>
-                    <input class="full-width has-padding has-border" id="email" name="email" type="email" placeholder="Enter E-mail">
+                    <label class="image-replace cd-email" for="empsignup-email">Email</label>
+                    <input class="full-width has-padding has-border" id="email" name="email" type="email" placeholder="Enter Email">
 
                   </p>
 

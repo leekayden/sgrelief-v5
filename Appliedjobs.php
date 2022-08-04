@@ -92,7 +92,7 @@ if ($result->num_rows > 0) {
                             
                             <div style="padding-left: 500px; padding-top: 150px;">
                                 <div>
-                            <h4>Username</h4>
+                            <h4>Name</h4>
                             <h2><?php echo $name; ?></h2>
                                 </div>
                                 <div style="padding-top: 30px;">
