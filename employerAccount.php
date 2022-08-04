@@ -105,7 +105,7 @@ if ($resultE->num_rows > 0) {
                             <th>Post Id</th>
                             <th>Title</th>
                             <th>Description</th>
-                            <th>Min Experience</th>
+                            <th>School</th>
                             <th>Salary</th>
                             <th>Status</th>
                             <th>Update</th>
