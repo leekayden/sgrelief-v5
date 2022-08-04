@@ -103,14 +103,14 @@ if ($result->num_rows > 0) {
 		        </div>
 		
                     <div style=" height: 100vh; margin-top:0%;" class="col-md-12">
-                        <div><h3 style=" padding-bottom: 30px;">Jobs Applied by you:</h3></div>
+                        <div><h3 style=" padding-bottom: 30px;">Jobs Applied by you</h3></div>
                         <table class="table table-hover table-responsive table-striped" id='jobappliedTable'>
                             <thead>
                             <th>Post Id</th>
                             <th>Company Name</th>
                             <th>Job Title</th>
                             <th>Date Applied</th>
-                            <th>Minimum Experience</th>
+                            <th>School</th>
                             <th>Salary</th>
                             <th>Job Description</th>
                             <th>Status</th>
