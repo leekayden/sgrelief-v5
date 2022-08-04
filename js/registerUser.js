@@ -21,7 +21,7 @@ $("#loginsubmit").click(function() {
      if(email==""){ 
         $('#email').css('border-color','red'); 
         flag = false;
-		output = '<div class="error">Please Enter Your Email</div>';
+		output = '<div class="error">Email</div>';
 		$("#loginresult").hide().html(output).slideDown();  
 		return false;
     }
@@ -32,7 +32,7 @@ $("#loginsubmit").click(function() {
         $('#password').css('border-color','red'); 
 		
         flag = false;
-		output = '<div class="error">Please Enter Your Password</div>';
+		output = '<div class="error">Password</div>';
 		$("#loginresult").hide().html(output).slideDown();   
 		return false;
     }
@@ -122,7 +122,7 @@ $("#loginsubmit").click(function() {
     if(name==""){ 
         $('#name').css('border-color','red'); 
         flag = false;
-		output = '<div class="error">Please Enter Your Name</div>';
+		output = '<div class="error">Name</div>';
 		$("#result").hide().html(output).slideDown();  
 		return false;
     }
@@ -130,7 +130,7 @@ $("#loginsubmit").click(function() {
 	   if(email==""){ 
         $('#email').css('border-color','red'); 
         flag = false;
-		output = '<div class="error">Please Enter Your Email</div>';
+		output = '<div class="error">Email</div>';
 		$("#result").hide().html(output).slideDown();  
 		return false;
     }
@@ -141,7 +141,7 @@ $("#loginsubmit").click(function() {
         $('#signup-password').css('border-color','red'); 
 		
         flag = false;
-		output = '<div class="error">Please Enter Your Password</div>';
+		output = '<div class="error">Password</div>';
 		$("#result").hide().html(output).slideDown();  
 		return false;
     } 
@@ -150,7 +150,7 @@ $("#loginsubmit").click(function() {
         $('#mob').css('border-color','red'); 
 		
         flag = false;
-		output = '<div class="error">Please Enter Your Mobile No.</div>';
+		output = '<div class="error">Mobile No.</div>';
 		$("#result").hide().html(output).slideDown();  
 		return false;
     } 

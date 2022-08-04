@@ -50,7 +50,7 @@
 
             <p class="fieldset">
               <label class="image-replace cd-password" for="epass">Password</label>
-              <input class="full-width has-padding has-border" id="password" name="password" type="password" placeholder="Enter Your Password">
+              <input class="full-width has-padding has-border" id="password" name="password" type="password" placeholder="Password">
               <a href="#0" class="hide-password">Show</a>
             <div id="loginresult" style="display:none;color:white;">Error message here!</div>
             </p>
