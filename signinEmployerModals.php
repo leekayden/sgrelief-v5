@@ -93,7 +93,7 @@
 
             <ul class="nav nav-tabs" style="width: 535px;">
               <li class="active " style="padding-left: 30px;"><a data-toggle="tab" href="#home" class="ba">Employer Register</a></li>
-              <li><a data-toggle="tab" class="ba" href="#menu1">Jobseeker Register</a></li>
+              <li><a data-toggle="tab" class="ba" href="#menu1">Relief Teacher Register</a></li>
             </ul>
 
             <div class="tab-content">
@@ -164,7 +164,10 @@
 
                   </p>
 
-
+                  <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+                  </style>
+                  <span style="color: red; font-family: 'Caveat', cursive; font-size: larger;">By creating an account with us, you agree to the <a href="/terms-and-conditions/" target="_blank" rel="noopener noreferrer">Terms and Conditions</a></span>
                   <p class="form-group">
                     <button id="regsubmit" class="full-width has-padding btn-success" style="padding:10px; background-color: #e9c46a;color:#1d3557;">Create account</button>
                   </p>
