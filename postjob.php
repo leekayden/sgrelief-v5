@@ -192,10 +192,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
                                 <input type="text" name="minexp" class="form-control" style="border-radius:0px; height: 50px;" placeholder="School" value="<?php echo $minexp; ?>" />
                             </div>
 
-                            <div class="form-group">
+                            <!-- <div class="form-group">
                                 <label for="salary">Salary (per half an hour)</label>
                                 <input type="text" name="salary" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Salary" value="<?php echo $salary; ?>" />
-                            </div>
+                            </div> -->
 
                             <div class="form-group">
                                 <label for="industry">Level</label>

@@ -220,10 +220,10 @@ if (session_status() == PHP_SESSION_NONE) {
                     <h5> <b style="color:#F8D4A7">Job Description:</b> <br> </h5>
                     <h5><?php echo $desc; ?></h5>
                     <!-- ------------------------------------------------------------------ -->
-                    <h5><b style="color:#F8D4A7">School</b>
+                    <h5><b style="color:#F8D4A7">School:</b>
                       <?php echo $minexp; ?></h5>
                     <!-- ------------------------------------------------------------------ -->
-                    <h5><b style="color:#F8D4A7">Salary:</b>
+                    <!-- <h5><b style="color:#F8D4A7">Salary:</b> -->
                       <?php echo $salary; ?> </h5> <br>
                     <!-- ------------------------------------------------------------------ -->
                     <a href="applyJob.php?id=<?php echo $pid; ?>" class="pull-right" style="font-family: 'Sora', sans-serif; color:#e9c46a;">
