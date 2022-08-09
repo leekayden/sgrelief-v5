@@ -157,15 +157,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
 
 
         <div class="hero">
+            <h5 style="padding-top: 120px; font-size: 90px; text-align: center;"><?php echo $msg; ?></h5>
 
-            <h3 class="pc" style="padding-top: 120px; font-size: 90px; text-align: center;"><b>Post job</b></h3>
+            <h3 class="pc" style="padding-top: 120px; font-size: 45px; text-align: center;"><b>Post job</b></h3>
 
             <div class="container contact-form" style=" background-color: #2a9d8f; width: 700px; height: 1100px; box-shadow: 0px 0px 25px #1e1e1e; 
                  align-items: center; justify-content: center; display: flex; padding: 0px;">
-                <b><?php echo $msg; ?></b>
-                <!--display message-->
-                <div style="font-family: Sora; font-size: 15px; color: #ffd6a5; padding-top: 15px;">
-                </div>
+                <b></b>
                 <form method="post">
 
                     <div class="row">
