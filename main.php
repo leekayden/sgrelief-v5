@@ -266,7 +266,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
           <br><br>
           <div style="padding-top:10px; padding-right:30px;">
-            <h3>Jobs By Industry</h3>
+            <h3>Jobs By Education Level</h3>
 
             <form>
               <select class="form-control" name='industry' style="border-radius:0px;">
