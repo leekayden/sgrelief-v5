@@ -30,7 +30,7 @@ if (session_status() == PHP_SESSION_NONE) {
                     Welcome to SG<span>relief</span>teaching!
                 </h1>
                 <p>
-                At SG<span>relief</span>teaching, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!
+                At SG<span>relief</span>teaching, we matchmake MOE teachers with relief teachers to conduct lessons on their behalf. Relief teachers could easily find jobs from teachers who require them as well!
                 </p>
                 <div class="btn-con">
                     <a href="/main.php?msg=login" class="main-btn">
@@ -51,7 +51,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 <div class="left-about">
                     <h4>About us</h4>
                     <p>
-                    At SGreliefteaching, we help schools/teachers to find Flexi-Adjunct/relief teachers. We also help Flexi-Adjunct/relief teachers to find teaching assignments.
+                    At SG<span>relief</span>teaching, we matchmake MOE teachers with relief teachers to conduct lessons on their behalf. Relief teachers could easily find jobs from teachers who require them as well!
                     </p>
                     <div class="btn-con">
                         <a href="/main.php?msg=login" class="main-btn">
