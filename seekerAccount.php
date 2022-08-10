@@ -22,7 +22,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
 <style>
     .tiltContain{margin-top:0%;} 
-    .btnTilt{height: 75px;background:rgba(225,225,225,0.2) ;  color:white; font-family: Sora;}
+    .btnTilt{height: 75px;background:rgba(225,225,225,0.2) ;  color:white; font-family: Arial;}
 
     .textDarkShadow{
     text-shadow: 0px 0px 3px #000,3px 3px 5px #003333; 

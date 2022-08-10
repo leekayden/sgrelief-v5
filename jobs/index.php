@@ -46,7 +46,7 @@ if (session_status() == PHP_SESSION_NONE) {
       height: 75px;
       background: rgba(225, 225, 225, 0.2);
       color: white;
-      font-family: Sora;
+      font-family: Arial;
     }
 
     .textDarkShadow {
