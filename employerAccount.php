@@ -106,7 +106,6 @@ if ($resultE->num_rows > 0) {
                             <th>Title</th>
                             <th>Description</th>
                             <th>School</th>
-                            <th>Salary</th>
                             <th>Status</th>
                             <th>Update</th>
                             <th>Delete</th>
@@ -137,7 +136,6 @@ if ($resultE->num_rows > 0) {
                                     <td><?php echo $title;?></td>
                                     <td><?php echo $desc;?></td>
                                     <td><?php echo $minexp;?></td>
-                                    <td><?php echo $salary;?></td>
                                     <td><?php echo $status;?></td>
                                     <td>
                                         <a href="postjob.php?update=true&id=<?php echo $id;?>"> <span class="glyphicon glyphicon-pencil"></span></a>
