@@ -161,7 +161,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 $numberofposts = $row['AllPosts'];
             ?>
 
-                <h3 style="font-family: 'Schoolbell', cursive; font-family: 'Vollkorn', serif; color: #f2cc8f; padding-left:4px;"> Total Job Posts Available: <?php echo $numberofposts; ?> </h3>
+                <h3 style="font-family: 'Arial'; color: #f2cc8f; padding-left:4px;"> Total Job Posts Available: <?php echo $numberofposts; ?> </h3>
             <?php }
             } ?>
 
@@ -175,7 +175,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 $numberofusers = $row['TotalActiveUsers'];
             ?>
 
-                <h3 style="font-family: 'Schoolbell', cursive; font-family: 'Vollkorn', serif; color: #f2cc8f; padding-left:4px;"> Active Users: <?php echo $numberofusers; ?> </h3>
+                <h3 style="font-family: 'Arial'; color: #f2cc8f; padding-left:4px;"> Active Users: <?php echo $numberofusers; ?> </h3>
             <?php }
             } ?>
             <!--------------------------------------------------------------------------------------------->
