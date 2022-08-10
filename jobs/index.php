@@ -35,7 +35,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 
   <!--FONTS-->
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 
   <style>
     .tiltContain {
@@ -124,7 +124,7 @@ if (session_status() == PHP_SESSION_NONE) {
   </style>
 
 
-<body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
+<body onload="logoBeat()" style="font-family: 'Arial', sans-serif;">
 
   <?php
   include '../navBar.php';
@@ -228,7 +228,7 @@ if (session_status() == PHP_SESSION_NONE) {
                     <h5><b style="color:#F8D4A7">Salary:</b>
                       <?php echo $salary; ?> </h5> <br>
                     <!-- ------------------------------------------------------------------ -->
-                    <a href="../applyJob.php?id=<?php echo $pid; ?>" class="pull-right" style="font-family: 'Sora', sans-serif; color:#e9c46a;">
+                    <a href="../applyJob.php?id=<?php echo $pid; ?>" class="pull-right" style="font-family: 'Arial', sans-serif; color:#e9c46a;">
                       <h3><strong>Apply</strong></h3>
                     </a>
                   </div>

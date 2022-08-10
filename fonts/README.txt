@@ -1,25 +1,25 @@
-Sora Variable Font
+Arial Variable Font
 ==================
 
-This download contains Sora as both a variable font and static fonts.
+This download contains Arial as both a variable font and static fonts.
 
-Sora is a variable font with this axis:
+Arial is a variable font with this axis:
   wght
 
 This means all the styles are contained in a single file:
-  Sora-VariableFont_wght.ttf
+  Arial-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Sora:
-  static/Sora-Thin.ttf
-  static/Sora-ExtraLight.ttf
-  static/Sora-Light.ttf
-  static/Sora-Regular.ttf
-  static/Sora-Medium.ttf
-  static/Sora-SemiBold.ttf
-  static/Sora-Bold.ttf
-  static/Sora-ExtraBold.ttf
+in those cases you can use the static font files for Arial:
+  static/Arial-Thin.ttf
+  static/Arial-ExtraLight.ttf
+  static/Arial-Light.ttf
+  static/Arial-Regular.ttf
+  static/Arial-Medium.ttf
+  static/Arial-SemiBold.ttf
+  static/Arial-Bold.ttf
+  static/Arial-ExtraBold.ttf
 
 Get started
 -----------

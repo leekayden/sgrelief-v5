@@ -26,7 +26,7 @@
 <link href="css/kodchasan.css" rel="stylesheet">
 
 <!--FONTS-->
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 
 
 <style>
@@ -53,7 +53,7 @@
 }
 </style>
 
-<body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
+<body onload="logoBeat()" style="font-family: 'Arial', sans-serif;">
 
 <?php
 include 'navBar.php';

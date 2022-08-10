@@ -19,7 +19,7 @@
 <link href="css/animate.min.css" rel="stylesheet" type="text/css">
 
 <!--FONTS-->
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 <style>
     .tiltContain{margin-top:0%;} 
     .btnTilt{height: 75px;background:rgba(225,225,225,0.2) ;  color:white; font-family: Arial;}
@@ -44,7 +44,7 @@
 }
 </style>
 
-<body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
+<body onload="logoBeat()" style="font-family: 'Arial', sans-serif;">
 
 <?php
 include 'navBar.php';

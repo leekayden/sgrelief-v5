@@ -91,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
     <link href="css/animate.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
     <!--FONTS-->
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 
 
     <style>
@@ -127,7 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
         }
     </style>
 
-<body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
+<body onload="logoBeat()" style="font-family: 'Arial', sans-serif;">
 
     <?php
     include 'navBar.php';

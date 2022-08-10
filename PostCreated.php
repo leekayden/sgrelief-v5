@@ -18,7 +18,7 @@
 <link href="css/animate.min.css" rel="stylesheet" type="text/css">
 
 <!--FONTS-->
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 <style>
     
     
