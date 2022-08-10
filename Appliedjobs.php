@@ -87,7 +87,7 @@ if ($result->num_rows > 0) {
 		
 			<div class="col"  >
                             <div class="col-md-6" style="padding-top:50px;">
-                             <img src="img/1.jpg" class="img-circle pc" width="200" style="margin: 20%; box-shadow: 0px 0px 20px #1e1e1e;">
+                             <img src="img/1.jpg" class="pc" width="200" style="margin: 20%; box-shadow: 0px 0px 20px #1e1e1e;">
                             </div>
                             
                             <div style="padding-left: 500px; padding-top: 150px;">

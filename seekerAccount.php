@@ -76,7 +76,7 @@ if ($resultE->num_rows > 0) {
 	<div class="hero" >
 	    <div style="width: 100%; " class="row">
 		<div class="col-md-6">
-                    <img src="img/1.jpg" class="img-circle pc" width="200" style="margin: 20%; box-shadow: 0px 0px 20px #1e1e1e;">
+                    <img src="img/1.jpg" class="pc" width="200" style="margin: 20%; box-shadow: 0px 0px 20px #1e1e1e;">
                 </div>
 		
                     <div style=" height: 100vh; color: black " class="col-md-6" >
