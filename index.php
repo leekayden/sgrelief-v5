@@ -39,19 +39,6 @@ if (session_status() == PHP_SESSION_NONE) {
                     </a>
                 </div>
                 <br>
-                <div class="btn-con">
-                    <a href="/main.php?msg=login" class="main-btn">
-                        <span class="btn-text">Start now!</span>
-                        <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
-                    </a>
-                </div>
-                <br>
-                <div class="btn-con">
-                    <a href="/jobs/" class="main-btn">
-                        <span class="btn-text">Find jobs</span>
-                        <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
-                    </a>
-                </div>
             </div>
         </div>
     </header>
@@ -282,7 +269,7 @@ if (session_status() == PHP_SESSION_NONE) {
                         <p>
                             Have some questions, queries or doubts? No problem! You can simply contact us here!
                         </p>
-                        <div class="contact-icons">
+                        <!-- <div class="contact-icons">
                             <div class="contact-icon">
                                 <a href="www.facebook.com" target="_blank">
                                     <i class="fab fa-facebook-f"></i>
@@ -297,7 +284,7 @@ if (session_status() == PHP_SESSION_NONE) {
                                     <i class="fab fa-youtube"></i>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="right-contact">
                         <form action="https://forms.cloudservetechcentral.com/process.php" method="post" class="contact-form" id="contactform">

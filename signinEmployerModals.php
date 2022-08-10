@@ -92,7 +92,7 @@
           <div class="container" style="">
 
             <ul class="nav nav-tabs" style="width: 535px;">
-              <li class="active " style="padding-left: 30px;"><a data-toggle="tab" href="#home" class="ba">Employer Register</a></li>
+              <li class="active " style="padding-left: 30px;"><a data-toggle="tab" href="#home" class="ba">Teacher Register</a></li>
               <li><a data-toggle="tab" class="ba" href="#menu1">Relief Teacher Register</a></li>
             </ul>
 
