@@ -69,6 +69,7 @@
 </a></li>';
      
  }  ?>
+        <li><a href="/">Find Jobs</a></li>
         <li><a href="/contact">Contact Us</a></li>
       </ul>
           
