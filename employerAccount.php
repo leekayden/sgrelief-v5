@@ -123,7 +123,7 @@ if ($resultE->num_rows > 0) {
                                 $title=$row['name'];
                                 $category=$row['category'];
                                 $minexp=$row['minexp'];
-                                $salary=$row['salary'];
+                                // $salary=$row['salary'];
                                 $industry=$row['industry'];
                                 $desc=$row['desc'];
                                 $role=$row['role'];
