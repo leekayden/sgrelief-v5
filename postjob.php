@@ -196,7 +196,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
                             </div> -->
 
                             <div class="form-group">
-                                <label for="industry">Level</label>
+                                <label for="industry">Education Level</label>
                                 <select type="text" name="industry" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Industry"> <?php include 'industryOptions.php'; ?>
                                 </select>
                             </div>
@@ -213,7 +213,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
                             </div>
 
                             <div class="form-group">
-                                <label for="eType">Working Time (1/2h 1h etc.)</label>
+                                <label for="eType">Working Time (1/2h 1h etc.) & Date</label>
                                 <input type="text" name="eType" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Working Time" value="<?php echo $time; ?>" />
                                 </select>
                             </div>
