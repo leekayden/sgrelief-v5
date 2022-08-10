@@ -208,7 +208,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
                             </div>
 
                             <div class="form-group">
-                                <label for="role">Subject/Role</label>
+                                <label for="role">Subject & Role</label>
                                 <input type="text" name="role" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Subject/Role" value="<?php echo $role; ?>" />
                             </div>
 
