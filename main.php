@@ -215,7 +215,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
                     <h3 style="color: #e9c46a"> <b> <?php echo $jobtitle; ?> <b> </h3>
                     <!-- ------------------------------------------------------------------ -->
-                    <h5 style="color:#99D98C">By <?php echo $ename; ?> </h5> <br>
+                    <h5 style="color:#99D98C">Posted By: <?php echo $ename; ?> </h5> <br>
                     <!-- ------------------------------------------------------------------ -->
                     <h5> <b style="color:#F8D4A7">Job Description:</b> <br> </h5>
                     <h5><?php echo $desc; ?></h5>
@@ -224,7 +224,7 @@ if (session_status() == PHP_SESSION_NONE) {
                       <?php echo $minexp; ?></h5>
                     <!-- ------------------------------------------------------------------ -->
                     <!-- <h5><b style="color:#F8D4A7">Salary:</b> -->
-                      <?php echo $salary; ?> </h5> <br>
+                      <?php //echo $salary; ?> </h5> <br>
                     <!-- ------------------------------------------------------------------ -->
                     <a href="applyJob.php?id=<?php echo $pid; ?>" class="pull-right" style="font-family: 'Arial', sans-serif; color:#e9c46a;">
                       <h3><strong>Apply</strong></h3>
@@ -251,7 +251,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
           <br><br>
           <div style="padding-top:10px; padding-right:30px;">
-            <h3>Jobs By Category</h3>
+            <h3>Jobs By Cluster</h3>
             <form>
 
               <div>
