@@ -67,7 +67,7 @@
     echo '<li><a id="loginAnchor" href="#" data-toggle="modal" data-target="#myEmployerModal">
   Sign In/Sign Up
 </a></li>';
-     
+    
  }  ?>
         <li><a href="https://www.moe.gov.sg/-/media/files/about-us/school-clusters-2022.ashx/" target="_blank">School Cluster List</a></li>
         <li><a href="/main.php">Find Jobs</a></li>

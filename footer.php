@@ -336,7 +336,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-4 footer-column">
+            <!-- <div class="col-md-4 footer-column">
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <span class="footer-title">Services</span>
@@ -345,7 +345,7 @@
                         <a class="nav-link" href="https://forms.cloudservetechcentral.com" target="_blank">CloudserveForms</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
             <div class="col-md-4 footer-column">
                 <ul class="nav flex-column">
                     <li class="nav-item">
