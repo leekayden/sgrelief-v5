@@ -130,24 +130,26 @@
               <div id="menu1" class="tab-pane fade" style="width: 50%;">
                 <h3 style="color: white; padding-left: 30px;">Register as Relief Teacher</h3>
                 <form class="cd-form" method="post" action="registerJobseeker.php" enctype="multipart/form-data">
+                  <p>Name</p>
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-username" for="empsignup-username">Name</label>
                     <input class="full-width has-padding has-border" id="name" name="name" type="text" placeholder="Name">
 
                   </p>
-
+                  <p>Email</p>
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-email" for="empsignup-email">Email</label>
                     <input class="full-width has-padding has-border" id="email" name="email" type="email" placeholder="Enter Email">
 
                   </p>
-
+                  <p>Password</p>
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-password" for="empsignup-password">Password</label>
                     <input class="full-width has-padding has-border" id="password" name="password" type="password" placeholder="Enter Password">
                     <a href="#0" class="hide-password" style="padding-right: 70px;">Show</a>
 
                   </p>
+                  <p>Qualification</p>
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-username" for="empsignup-username">Qualification</label>
                     <input class="full-width has-padding has-border" id="qlf" name="qlf" type="text" placeholder="Qualification">
@@ -159,6 +161,7 @@
                     <input class="full-width has-padding has-border" id="dob" name="dob" type="date" placeholder="date of birth">
 
                   </p>
+                  <p>Contact</p>
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-username" for="empsignup-username">Contact (Email/Phone)</label>
                     <input class="full-width has-padding has-border" id="skills" name="skills" type="text" placeholder="Contact">
