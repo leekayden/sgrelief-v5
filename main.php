@@ -138,7 +138,7 @@ if (session_status() == PHP_SESSION_NONE) {
         <div class="col-md-9">
           <div style=" margin-top: 30px; padding-left: 50px;">
             <h1 id="jbs">Jobs</h1>
-            <form class="example" action="index.php">
+            <form class="example" action="main.php">
               <input style="color:#000; height:45px; width:800px; border-radius:30px 0px 0px 30px;" type="text" placeholder="Search For Jobs..." name="q">
               <button type="submit" style="height:45px; width:160px; border-radius:0px 30px 30px 0px; background-color: #257059; "><i class="fa fa-search bb"></i></button>
             </form>
