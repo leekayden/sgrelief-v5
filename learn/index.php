@@ -1,6 +1,4 @@
 <?php
-/* This will give an error. Note the output
- * above, which is before the header() call */
-header('Location: http://www.example.com/');
+header('Location: https://sgreliefteaching.cloudservetechcentral.com/');
 exit;
 ?>
