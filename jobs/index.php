@@ -15,7 +15,7 @@ if (session_status() == PHP_SESSION_NONE) {
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="img/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
   <title>SGreliefteaching | Jobs</title>
 
@@ -35,7 +35,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 
   <!--FONTS-->
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 
   <style>
     .tiltContain {
@@ -46,7 +46,7 @@ if (session_status() == PHP_SESSION_NONE) {
       height: 75px;
       background: rgba(225, 225, 225, 0.2);
       color: white;
-      font-family: Sora;
+      font-family: Arial;
     }
 
     .textDarkShadow {
@@ -124,7 +124,7 @@ if (session_status() == PHP_SESSION_NONE) {
   </style>
 
 
-<body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
+<body onload="logoBeat()" style="font-family: 'Arial', sans-serif;">
 
   <?php
   include '../navBar.php';
@@ -161,7 +161,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 $numberofposts = $row['AllPosts'];
             ?>
 
-                <h3 style="font-family: 'Schoolbell', cursive; font-family: 'Vollkorn', serif; color: #f2cc8f; padding-left:4px;"> Total Job Posts Available: <?php echo $numberofposts; ?> </h3>
+                <h3 style="font-family: 'Arial'; color: #f2cc8f; padding-left:4px;"> Total Job Posts Available: <?php echo $numberofposts; ?> </h3>
             <?php }
             } ?>
 
@@ -175,7 +175,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 $numberofusers = $row['TotalActiveUsers'];
             ?>
 
-                <h3 style="font-family: 'Schoolbell', cursive; font-family: 'Vollkorn', serif; color: #f2cc8f; padding-left:4px;"> Active Users: <?php echo $numberofusers; ?> </h3>
+                <h3 style="font-family: 'Arial'; color: #f2cc8f; padding-left:4px;"> Active Users: <?php echo $numberofusers; ?> </h3>
             <?php }
             } ?>
             <!--------------------------------------------------------------------------------------------->
@@ -228,7 +228,7 @@ if (session_status() == PHP_SESSION_NONE) {
                     <h5><b style="color:#F8D4A7">Salary:</b>
                       <?php echo $salary; ?> </h5> <br>
                     <!-- ------------------------------------------------------------------ -->
-                    <a href="../applyJob.php?id=<?php echo $pid; ?>" class="pull-right" style="font-family: 'Sora', sans-serif; color:#e9c46a;">
+                    <a href="../applyJob.php?id=<?php echo $pid; ?>" class="pull-right" style="font-family: 'Arial', sans-serif; color:#e9c46a;">
                       <h3><strong>Apply</strong></h3>
                     </a>
                   </div>
@@ -268,7 +268,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
           <br><br>
           <div style="padding-top:10px; padding-right:30px;">
-            <h3>Jobs By Industry</h3>
+            <h3>Jobs By Education Level</h3>
 
             <form>
               <select class="form-control" name='industry' style="border-radius:0px;">

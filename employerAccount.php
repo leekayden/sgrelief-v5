@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="img/favicon.svg" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 <title>Account | Employer</title>
 
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
@@ -24,7 +24,7 @@
 <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css">
 
 <!--FONTS-->
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 <style>
     .tiltContain{margin-top:0%;} 
     .btnTilt{height: 75px;background:rgba(225,225,225,0.2) ;  color:white; font-family: Comfortaa;}
@@ -50,7 +50,7 @@
 
 </style>
 
-<body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
+<body onload="logoBeat()" style="font-family: 'Arial', sans-serif;">
 
 <?php
 include 'navBar.php';
@@ -81,7 +81,7 @@ if ($resultE->num_rows > 0) {
 	  <div style="width: 100%; padding-left: 50px; padding-right: 50px; " class="row" >
             <div class="col">
                 <div class="col-md-6" style="padding-top:50px;">
-                <img src="img/2.jpg" class="img-circle pc" width="200" style="margin: 20%; box-shadow: 0px 0px 20px #1e1e1e;">
+                <img src="img/2.jpg" class="pc" width="200" style="margin: 20%; box-shadow: 0px 0px 20px #1e1e1e;">
                 </div>
                 <div style="padding-left: 500px; padding-top: 90px;">
                     
@@ -105,8 +105,7 @@ if ($resultE->num_rows > 0) {
                             <th>Post Id</th>
                             <th>Title</th>
                             <th>Description</th>
-                            <th>Min Experience</th>
-                            <th>Salary</th>
+                            <th>School</th>
                             <th>Status</th>
                             <th>Update</th>
                             <th>Delete</th>
@@ -124,7 +123,7 @@ if ($resultE->num_rows > 0) {
                                 $title=$row['name'];
                                 $category=$row['category'];
                                 $minexp=$row['minexp'];
-                                $salary=$row['salary'];
+                                // $salary=$row['salary'];
                                 $industry=$row['industry'];
                                 $desc=$row['desc'];
                                 $role=$row['role'];
@@ -137,7 +136,6 @@ if ($resultE->num_rows > 0) {
                                     <td><?php echo $title;?></td>
                                     <td><?php echo $desc;?></td>
                                     <td><?php echo $minexp;?></td>
-                                    <td><?php echo $salary;?></td>
                                     <td><?php echo $status;?></td>
                                     <td>
                                         <a href="postjob.php?update=true&id=<?php echo $id;?>"> <span class="glyphicon glyphicon-pencil"></span></a>

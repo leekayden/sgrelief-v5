@@ -77,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <title> Post A Job | Employer</title>
 
     <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
@@ -91,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
     <link href="css/animate.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
     <!--FONTS-->
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 
 
     <style>
@@ -127,7 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
         }
     </style>
 
-<body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
+<body onload="logoBeat()" style="font-family: 'Arial', sans-serif;">
 
     <?php
     include 'navBar.php';
@@ -157,11 +157,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
 
 
         <div class="hero">
+            <h5 style="padding-top: 120px; font-size: 45px; text-align: center; color: green;"><?php echo $msg; ?></h5>
 
-            <h3 class="pc" style="padding-top: 120px; font-size: 90px; text-align: center;"><b>Post job</b></h3>
+            <h3 class="pc" style="padding-top: 120px; font-size: 80px; text-align: center;"><b>Post job</b></h3>
 
             <div class="container contact-form" style=" background-color: #2a9d8f; width: 700px; height: 1100px; box-shadow: 0px 0px 25px #1e1e1e; 
-                 align-items: center; justify-content: center; display: flex; padding: 0px; ">
+                 align-items: center; justify-content: center; display: flex; padding: 0px;">
+                <b></b>
                 <form method="post">
 
                     <div class="row">
@@ -185,16 +187,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
 
                             <div class="form-group">
                                 <label for="minexp">School</label>
-                                <input type="text" name="minexp" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Enter Minimum Expireince" value="<?php echo $minexp; ?>" />
+                                <input type="text" name="minexp" class="form-control" style="border-radius:0px; height: 50px;" placeholder="School" value="<?php echo $minexp; ?>" />
                             </div>
 
-                            <div class="form-group">
+                            <!-- <div class="form-group">
                                 <label for="salary">Salary (per half an hour)</label>
                                 <input type="text" name="salary" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Salary" value="<?php echo $salary; ?>" />
-                            </div>
+                            </div> -->
 
                             <div class="form-group">
-                                <label for="industry">Level</label>
+                                <label for="industry">Education Level</label>
                                 <select type="text" name="industry" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Industry"> <?php include 'industryOptions.php'; ?>
                                 </select>
                             </div>
@@ -206,12 +208,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
                             </div>
 
                             <div class="form-group">
-                                <label for="role">Subject/Role</label>
+                                <label for="role">Subject & Role</label>
                                 <input type="text" name="role" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Subject/Role" value="<?php echo $role; ?>" />
                             </div>
 
                             <div class="form-group">
-                                <label for="eType">Working Time</label>
+                                <label for="eType">Working Time (1/2h 1h etc.) & Date</label>
                                 <input type="text" name="eType" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Working Time" value="<?php echo $time; ?>" />
                                 </select>
                             </div>
@@ -232,11 +234,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
 
                                 <button type="submit" name="submitPost" class="btn" style="background-color: #001219; color: #e9d8a6;
                             box-shadow: none; border-radius: 0px; height: 50px; width: 500px;"> <b>Post</b> </button>
-
-                                <!--display message-->
-                                <div style="font-family: Sora; font-size: 15px; color: #ffd6a5; padding-top: 15px;">
-                                    <b><?php echo $msg; ?></b>
-                                </div>
 
                             </div>
 

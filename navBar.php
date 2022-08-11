@@ -4,9 +4,9 @@
 <!--FONTS-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 
-<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" style="box-shadow: 0px 3px 4px rgba(225, 225, 225, .6); font-family: 'Sora', sans-serif;">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" style="box-shadow: 0px 3px 4px rgba(225, 225, 225, .6); font-family: 'Arial', sans-serif;">
   <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -16,7 +16,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/" style="padding-left: 50px; font-size:25px; color:white; font-family: 'Congenial SemiBold', sans-serif">
+      <a class="navbar-brand" href="/main.php" style="padding-left: 50px; font-size:25px; color:white; font-family: 'Congenial SemiBold', sans-serif">
           SG<span style="color: #27AE60;">relief</span>teaching
       </a> 
     </div>
@@ -69,6 +69,8 @@
 </a></li>';
      
  }  ?>
+        <li><a href="https://www.moe.gov.sg/-/media/files/about-us/school-clusters-2022.ashx/" target="_blank">View school cluster list</a></li>
+        <li><a href="/main.php">Find Jobs</a></li>
         <li><a href="/contact">Contact Us</a></li>
       </ul>
           

@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="img/favicon.svg" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 <title> Account | Relief Teacher</title>
 
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
@@ -19,10 +19,10 @@
 <link href="css/animate.min.css" rel="stylesheet" type="text/css">
 
 <!--FONTS-->
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 <style>
     .tiltContain{margin-top:0%;} 
-    .btnTilt{height: 75px;background:rgba(225,225,225,0.2) ;  color:white; font-family: Sora;}
+    .btnTilt{height: 75px;background:rgba(225,225,225,0.2) ;  color:white; font-family: Arial;}
 
     .textDarkShadow{
     text-shadow: 0px 0px 3px #000,3px 3px 5px #003333; 
@@ -44,7 +44,7 @@
 }
 </style>
 
-<body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
+<body onload="logoBeat()" style="font-family: 'Arial', sans-serif;">
 
 <?php
 include 'navBar.php';
@@ -76,7 +76,7 @@ if ($resultE->num_rows > 0) {
 	<div class="hero" >
 	    <div style="width: 100%; " class="row">
 		<div class="col-md-6">
-                    <img src="img/1.jpg" class="img-circle pc" width="200" style="margin: 20%; box-shadow: 0px 0px 20px #1e1e1e;">
+                    <img src="img/1.jpg" class="pc" width="200" style="margin: 20%; box-shadow: 0px 0px 20px #1e1e1e;">
                 </div>
 		
                     <div style=" height: 100vh; color: black " class="col-md-6" >

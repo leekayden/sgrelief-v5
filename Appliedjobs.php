@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="img/favicon.svg" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
 <title> Jobs Applied | Relief Teacher</title>
 
@@ -26,7 +26,7 @@
 <link href="css/kodchasan.css" rel="stylesheet">
 
 <!--FONTS-->
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 
 
 <style>
@@ -53,7 +53,7 @@
 }
 </style>
 
-<body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
+<body onload="logoBeat()" style="font-family: 'Arial', sans-serif;">
 
 <?php
 include 'navBar.php';
@@ -87,7 +87,7 @@ if ($result->num_rows > 0) {
 		
 			<div class="col"  >
                             <div class="col-md-6" style="padding-top:50px;">
-                             <img src="img/1.jpg" class="img-circle pc" width="200" style="margin: 20%; box-shadow: 0px 0px 20px #1e1e1e;">
+                             <img src="img/1.jpg" class="pc" width="200" style="margin: 20%; box-shadow: 0px 0px 20px #1e1e1e;">
                             </div>
                             
                             <div style="padding-left: 500px; padding-top: 150px;">
@@ -103,14 +103,14 @@ if ($result->num_rows > 0) {
 		        </div>
 		
                     <div style=" height: 100vh; margin-top:0%;" class="col-md-12">
-                        <div><h3 style=" padding-bottom: 30px;">Jobs Applied by you:</h3></div>
+                        <div><h3 style=" padding-bottom: 30px;">Jobs Applied by you</h3></div>
                         <table class="table table-hover table-responsive table-striped" id='jobappliedTable'>
                             <thead>
                             <th>Post Id</th>
                             <th>Company Name</th>
                             <th>Job Title</th>
                             <th>Date Applied</th>
-                            <th>Minimum Experience</th>
+                            <th>School</th>
                             <th>Salary</th>
                             <th>Job Description</th>
                             <th>Status</th>

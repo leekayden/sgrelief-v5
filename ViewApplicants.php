@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="img/favicon.svg" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 <title> View Applicants | Employer</title>
 
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
@@ -25,7 +25,7 @@
 <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
 <!--FONTS-->
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arial:wght@200&display=swap" rel="stylesheet">
 
 <style>
     .tiltContain{margin-top:0%;} 
@@ -51,7 +51,7 @@
 }
 </style>
 
-<body onload="logoBeat()" style="font-family: 'Sora', sans-serif;">
+<body onload="logoBeat()" style="font-family: 'Arial', sans-serif;">
 
 <?php
 include 'navBar.php';

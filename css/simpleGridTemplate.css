@@ -1839,7 +1839,7 @@ padding-top: 10%;
 
 /*---------------------------------------------*/
 a {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Arial';
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -1865,7 +1865,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Arial';
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -2035,7 +2035,7 @@ textarea.input100 {
   display: block;
   width: 100%;
   background: #e6e6e6;
- font-family: 'Comfortaa', cursive;
+ font-family: 'Arial';
   font-size: 15px;
   line-height: 1.5;
   color: #666666;
@@ -2124,7 +2124,7 @@ textarea.input100 {
   height: 50px;
   border-radius: 25px;
   background: #846add;
-font-family: 'Comfortaa', cursive;
+font-family: 'Arial';
   font-size: 15px;
   line-height: 1.5;
   color: #fff;
@@ -2231,7 +2231,7 @@ font-family: 'Comfortaa', cursive;
 
 .alert-validate::after {
   content: "\f06a";
- font-family: 'Comfortaa', cursive;
+ font-family: 'Arial';
   display: block;
   position: absolute;
   color: #c80000;

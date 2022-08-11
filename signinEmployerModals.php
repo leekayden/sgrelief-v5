@@ -92,8 +92,8 @@
           <div class="container" style="">
 
             <ul class="nav nav-tabs" style="width: 535px;">
-              <li class="active " style="padding-left: 30px;"><a data-toggle="tab" href="#home" class="ba">Employer Register</a></li>
-              <li><a data-toggle="tab" class="ba" href="#menu1">Jobseeker Register</a></li>
+              <li class="active " style="padding-left: 30px;"><a data-toggle="tab" href="#home" class="ba">Teacher Register</a></li>
+              <li><a data-toggle="tab" class="ba" href="#menu1">Relief Teacher Register</a></li>
             </ul>
 
             <div class="tab-content">
@@ -119,7 +119,7 @@
 
                   </p>
 
-
+                  <span style="color: red; font-family: 'Arial', cursive; font-size: larger;">By creating an account with us, you agree to the <a href="/terms-and-conditions/" target="_blank" rel="noopener noreferrer">Terms and Conditions</a></span>
                   <p class="form-group">
                     <button id="regsubmit" class="full-width has-padding btn-success" style="padding:10px; background-color: #e9c46a;color:#1d3557;">Create account</button>
                   </p>
@@ -130,41 +130,44 @@
               <div id="menu1" class="tab-pane fade" style="width: 50%;">
                 <h3 style="color: white; padding-left: 30px;">Register as Relief Teacher</h3>
                 <form class="cd-form" method="post" action="registerJobseeker.php" enctype="multipart/form-data">
+                  <p>Name</p>
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-username" for="empsignup-username">Name</label>
                     <input class="full-width has-padding has-border" id="name" name="name" type="text" placeholder="Name">
 
                   </p>
-
+                  <p>Email</p>
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-email" for="empsignup-email">Email</label>
                     <input class="full-width has-padding has-border" id="email" name="email" type="email" placeholder="Enter Email">
 
                   </p>
-
+                  <p>Password</p>
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-password" for="empsignup-password">Password</label>
                     <input class="full-width has-padding has-border" id="password" name="password" type="password" placeholder="Enter Password">
                     <a href="#0" class="hide-password" style="padding-right: 70px;">Show</a>
 
                   </p>
+                  <p>Qualification</p>
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-username" for="empsignup-username">Qualification</label>
                     <input class="full-width has-padding has-border" id="qlf" name="qlf" type="text" placeholder="Qualification">
 
                   </p>
+                  <p class="fieldset">Date of birth</p> 
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class=" image-replace cd-username" for="empsignup-username">Date of Birth</label>
                     <input class="full-width has-padding has-border" id="dob" name="dob" type="date" placeholder="date of birth">
 
                   </p>
+                  <p>Contact</p>
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-username" for="empsignup-username">Contact (Email/Phone)</label>
                     <input class="full-width has-padding has-border" id="skills" name="skills" type="text" placeholder="Contact">
 
                   </p>
-
-
+                  <span style="color: red; font-family: 'Arial', cursive; font-size: larger;">By creating an account with us, you agree to the <a href="/terms-and-conditions/" target="_blank" rel="noopener noreferrer">Terms and Conditions</a></span>
                   <p class="form-group">
                     <button id="regsubmit" class="full-width has-padding btn-success" style="padding:10px; background-color: #e9c46a;color:#1d3557;">Create account</button>
                   </p>

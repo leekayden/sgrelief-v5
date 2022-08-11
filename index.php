@@ -30,28 +30,15 @@ if (session_status() == PHP_SESSION_NONE) {
                     Welcome to SG<span>relief</span>teaching!
                 </h1>
                 <p>
-                At SG<span>relief</span>teaching, we help teachers who needs relief teachers that can carry out lessons for them. We also help relief teachers find jobs from teachers who require them as well!
+                At SG<span>relief</span>teaching, we matchmake MOE teachers with relief teachers to conduct lessons on their behalf. Relief teachers could easily find jobs from teachers who require them as well!
                 </p>
                 <div class="btn-con">
                     <a href="/main.php?msg=login" class="main-btn">
-                        <span class="btn-text">Home</span>
+                        <span class="btn-text">Get started</span>
                         <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
                     </a>
                 </div>
                 <br>
-                <div class="btn-con">
-                    <a href="/main.php?msg=login" class="main-btn">
-                        <span class="btn-text">Start now!</span>
-                        <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
-                    </a>
-                </div>
-                <br>
-                <div class="btn-con">
-                    <a href="/jobs/" class="main-btn">
-                        <span class="btn-text">Find jobs</span>
-                        <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
-                    </a>
-                </div>
             </div>
         </div>
     </header>
@@ -64,18 +51,11 @@ if (session_status() == PHP_SESSION_NONE) {
                 <div class="left-about">
                     <h4>About us</h4>
                     <p>
-                    At SGreliefteaching, we help schools/teachers to find Flexi-Adjunct/relief teachers. We also help Flexi-Adjunct/relief teachers to find teaching assignments.
+                    At SG<span>relief</span>teaching, we matchmake MOE teachers with relief teachers to conduct lessons on their behalf. Relief teachers could easily find jobs from teachers who require them as well!
                     </p>
                     <div class="btn-con">
                         <a href="/main.php?msg=login" class="main-btn">
                             <span class="btn-text">Start now!</span>
-                            <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
-                        </a>
-                    </div>
-                    <br>
-                    <div class="btn-con">
-                        <a href="/jobs/" class="main-btn">
-                            <span class="btn-text">Find jobs</span>
                             <span class="btn-icon"><i class="fas fa-solid fa-arrow-right"></i></span>
                         </a>
                     </div>
@@ -282,7 +262,7 @@ if (session_status() == PHP_SESSION_NONE) {
                         <p>
                             Have some questions, queries or doubts? No problem! You can simply contact us here!
                         </p>
-                        <div class="contact-icons">
+                        <!-- <div class="contact-icons">
                             <div class="contact-icon">
                                 <a href="www.facebook.com" target="_blank">
                                     <i class="fab fa-facebook-f"></i>
@@ -297,7 +277,7 @@ if (session_status() == PHP_SESSION_NONE) {
                                     <i class="fab fa-youtube"></i>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="right-contact">
                         <form action="https://forms.cloudservetechcentral.com/process.php" method="post" class="contact-form" id="contactform">
