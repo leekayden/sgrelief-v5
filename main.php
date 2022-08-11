@@ -173,7 +173,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 $numberofusers = $row['TotalActiveUsers'];
             ?>
 
-                <h3 style="font-family: 'Arial'; color: #f2cc8f; padding-left:4px;">Active Users: <?php echo $numberofusers; ?> </h3>
+                <!-- <h3 style="font-family: 'Arial'; color: #f2cc8f; padding-left:4px;">Active Users: <?php //echo $numberofusers; ?> </h3> -->
             <?php }
             } ?>
             <!--------------------------------------------------------------------------------------------->
