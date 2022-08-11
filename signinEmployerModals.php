@@ -98,7 +98,7 @@
 
             <div class="tab-content">
               <div id="home" class="tab-pane fadein active" style="width: 50%;">
-                <h3 style="color: white; padding-left: 30px;">Register as Employer</h3>
+                <h3 style="color: white; padding-left: 30px;">Register as Teacher</h3>
                 <form class="cd-form" method="post" action="registerEmployer.php" enctype="multipart/form-data">
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class="image-replace cd-username" for="empsignup-username">Name</label>
