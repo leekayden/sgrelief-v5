@@ -153,7 +153,7 @@
                     <input class="full-width has-padding has-border" id="qlf" name="qlf" type="text" placeholder="Qualification">
 
                   </p>
-                  <p>Date of birth</p> 
+                  <p class="fieldset">Date of birth</p> 
                   <p class="fieldset" style="padding-right: 30px;">
                     <label class=" image-replace cd-username" for="empsignup-username">Date of Birth</label>
                     <input class="full-width has-padding has-border" id="dob" name="dob" type="date" placeholder="date of birth">
