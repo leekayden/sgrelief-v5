@@ -414,7 +414,7 @@
                         <a href="/privacy-policy">Privacy Policy</a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="/terms-and-conditions">Terms and Conditions</a>
+                        <a href="/terms-and-conditions">Terms & Conditions</a>
                     </li>
                 </ul>
             </div>
