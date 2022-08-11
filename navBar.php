@@ -69,7 +69,7 @@
 </a></li>';
      
  }  ?>
-        <li><a href="https://www.moe.gov.sg/-/media/files/about-us/school-clusters-2022.ashx/" target="_blank">View school cluster list</a></li>
+        <li><a href="https://www.moe.gov.sg/-/media/files/about-us/school-clusters-2022.ashx/" target="_blank">School Cluster List</a></li>
         <li><a href="/main.php">Find Jobs</a></li>
         <li><a href="/contact">Contact Us</a></li>
       </ul>
